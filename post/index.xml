@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on LiUWENZHUzzZ</title>
+    <link>https://liuwenzhuzzz.xyz/post/</link>
+    <description>Recent content in Posts on LiUWENZHUzzZ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 03 Apr 2020 06:54:17 +0000</lastBuildDate>
+    
+	<atom:link href="https://liuwenzhuzzz.xyz/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First</title>
+      <link>https://liuwenzhuzzz.xyz/post/first/</link>
+      <pubDate>Fri, 03 Apr 2020 06:54:17 +0000</pubDate>
+      
+      <guid>https://liuwenzhuzzz.xyz/post/first/</guid>
+      <description>#大家好，我是渣渣辉</description>
+    </item>
+    
+  </channel>
+</rss>
