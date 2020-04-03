@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on vcfe的博客</title>
-    <link>http://shhv.monster/categories/</link>
+    <link>https://shhv.monster/categories/</link>
     <description>Recent content in Categories on vcfe的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     
-	<atom:link href="http://shhv.monster/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://shhv.monster/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
