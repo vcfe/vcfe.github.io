@@ -46,7 +46,7 @@
     "articleSection" : "post",
     "name" : "Termux终端配置",
     "headline" : "Termux终端配置",
-    "description" : "自用配置 均来源于网络收集 基本配置 首先就是先配置键盘 mkdir $HOME\/.termux echo \x26quot;extra-keys = [[\x27ESC\x27,\x27\/\x27,\x27-\x27,\x27HOME\x27,\x27UP\x27,\x27END\x27,\x27PGUP\x27],[\x27TAB\x27,\x27CTRL\x27,\x27ALT\x27,\x27LEFT\x27,\x27DOWN\x27,\x27RIGHT\x27,\x27PGDN\x27]]\x26quot; \x26gt;\x26gt; $HOME\/.termux\/termux.properties 安装基本工具 pkg install vim curl wget git unzip unrar 外置存储 pkg install termux-tools termux-setup-storage 关联QQ手机文件夹 ln -s​ 源地",
+    "description" : "自用配置 均来源于网络收集 基本配置 首先就是先配置键盘 $mkdir $HOME\/.termux $echo \x26quot;extra-keys = [[\x27ESC\x27,\x27\/\x27,\x27-\x27,\x27HOME\x27,\x27UP\x27,\x27END\x27,\x27PGUP\x27],[\x27TAB\x27,\x27CTRL\x27,\x27ALT\x27,\x27LEFT\x27,\x27DOWN\x27,\x27RIGHT\x27,\x27PGDN\x27]]\x26quot; \x26gt;\x26gt; $HOME\/.termux\/termux.properties 安装基本工具 $pkg install vim curl wget git unzip unrar 外置存储 pkg install termux-tools termux-setup-storage 关联QQ手机文件夹 ln -s​ 源地",
     "inLanguage" : "zh-CN",
     "author" : "vcfe",
     "creator" : "vcfe",
@@ -70,9 +70,12 @@
   <body class="">
     <div class="wrapper">
         <nav class="navbar">
+	
+	    <div class="top-scroll-bar"></div>
+	
     <div class="container">
         <div class="navbar-header header-logo">
-        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="https://shhv.monster/">和光同尘</a>
+        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-python"></i></a>&nbsp;<a href="https://shhv.monster/">和光同尘</a>
         </div>
         <div class="menu navbar-right">
                 
@@ -89,9 +92,12 @@
     </div>
 </nav>
 <nav class="navbar-mobile" id="nav-mobile" style="display: none">
+	
+	    <div class="top-scroll-bar"></div>
+	
      <div class="container">
         <div class="navbar-header">
-            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="https://shhv.monster/">和光同尘</a></div>
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-python"></i></a>&nbsp;<a href="https://shhv.monster/">和光同尘</a></div>
             <div class="menu-toggle">
                 <span></span><span></span><span></span>
             </div>
@@ -111,6 +117,7 @@
         </div>
     </div>
 </nav>
+
     	 <main class="main">
           <div class="container">
       		
@@ -128,6 +135,7 @@
                         <a href="https://shhv.monster/categories/%E5%AD%A6%E4%B9%A0/"> 学习 </a>
                         
                 </span>
+				<span class="post-word-count">, 377 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -153,13 +161,13 @@
 <ul>
 <li>首先就是先配置键盘</li>
 </ul>
-<pre><code>mkdir $HOME/.termux  
+<pre><code>$mkdir $HOME/.termux  
 
-echo &quot;extra-keys = [['ESC','/','-','HOME','UP','END','PGUP'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN']]&quot; &gt;&gt; $HOME/.termux/termux.properties
+$echo &quot;extra-keys = [['ESC','/','-','HOME','UP','END','PGUP'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN']]&quot; &gt;&gt; $HOME/.termux/termux.properties
 </code></pre><ul>
 <li>安装基本工具</li>
 </ul>
-<pre><code>pkg install vim curl wget git unzip unrar
+<pre><code>$pkg install vim curl wget git unzip unrar
 
 </code></pre><ul>
 <li>外置存储</li>
@@ -272,7 +280,7 @@ chmod +x install.sh
         <span itemprop="copyrightYear">2020 - 2020</span>
         
         <span class="with-love">
-    	 <i class="iconfont icon-love"></i> 
+    	 <i class="iconfont icon-zuanshi"></i> 
          </span>
          
             <span class="author" itemprop="copyrightHolder"><a href="https://shhv.monster/">vcfe</a> | </span> 
@@ -294,11 +302,14 @@ chmod +x install.sh
 
 
 
+
     
     
     <script src="/js/vendor_no_gallery.min.js" async=""></script>
     
   
+
+
 
 
 
