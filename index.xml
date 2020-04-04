@@ -1,11 +1,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>vcfe的博客 on vcfe的博客</title>
+    <title>和光同尘 on 和光同尘</title>
     <link>https://shhv.monster/</link>
-    <description>Recent content in vcfe的博客 on vcfe的博客</description>
+    <description>Recent content in 和光同尘 on 和光同尘</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
+    <lastBuildDate>Sat, 04 Apr 2020 00:49:48 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Abouts</title>
+      <link>https://shhv.monster/about/</link>
+      <pubDate>Sat, 04 Apr 2020 00:49:48 +0000</pubDate>
+      
+      <guid>https://shhv.monster/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>https://shhv.monster/post/</link>
+      <pubDate>Fri, 03 Apr 2020 06:54:17 +0000</pubDate>
+      
+      <guid>https://shhv.monster/post/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on vcfe的博客</title>
+    <title>Tags on 和光同尘</title>
     <link>https://shhv.monster/tags/</link>
-    <description>Recent content in Tags on vcfe的博客</description>
+    <description>Recent content in Tags on 和光同尘</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
+    <lastBuildDate>Fri, 03 Apr 2020 06:54:17 +0000</lastBuildDate>
     
 	<atom:link href="https://shhv.monster/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>测试</title>
+      <link>https://shhv.monster/tags/%E6%B5%8B%E8%AF%95/</link>
+      <pubDate>Fri, 03 Apr 2020 06:54:17 +0000</pubDate>
+      
+      <guid>https://shhv.monster/tags/%E6%B5%8B%E8%AF%95/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
