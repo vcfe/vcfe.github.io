@@ -22,10 +22,10 @@
   <title>
        
        
-           First1 | 和光同尘
+           Termux终端配置 | 和光同尘
        
   </title>
-  <meta name="title" content="First1 | 和光同尘">
+  <meta name="title" content="Termux终端配置 | 和光同尘">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -44,9 +44,9 @@
          "@id": "https:\/\/shhv.monster\/"
     },
     "articleSection" : "post",
-    "name" : "First1",
-    "headline" : "First1",
-    "description" : "大家好，我是渣渣辉 你没有玩过的船新版本 我等你 是兄弟就来砍我",
+    "name" : "Termux终端配置",
+    "headline" : "Termux终端配置",
+    "description" : "自用配置 均来源于网络收集 基本配置 首先就是先配置键盘 mkdir $HOME\/.termux echo \x26quot;extra-keys = [[\x27ESC\x27,\x27\/\x27,\x27-\x27,\x27HOME\x27,\x27UP\x27,\x27END\x27,\x27PGUP\x27],[\x27TAB\x27,\x27CTRL\x27,\x27ALT\x27,\x27LEFT\x27,\x27DOWN\x27,\x27RIGHT\x27,\x27PGDN\x27]]\x26quot; \x26gt;\x26gt; $HOME\/.termux\/termux.properties 安装基本工具 pkg install vim curl wget git unzip unrar 外置存储 pkg install termux-tools termux-setup-storage 关联QQ手机文件夹 ln -s​ 源地",
     "inLanguage" : "zh-CN",
     "author" : "vcfe",
     "creator" : "vcfe",
@@ -57,8 +57,8 @@
     "datePublished": "2020-04-03 06:54:17 \x2b0000 UTC",
     "dateModified" : "2020-04-03 06:54:17 \x2b0000 UTC",
     "url" : "https:\/\/shhv.monster\/post\/first\/",
-    "wordCount" : "29",
-    "keywords" : [ "测试", "和光同尘"]
+    "wordCount" : "377",
+    "keywords" : [ "termux", "和光同尘"]
 }
 </script>
 
@@ -116,7 +116,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">First1</h1>
+        <h1 class="post-title" itemprop="name headline">Termux终端配置</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://shhv.monster/" rel="author">vcfe</a> with ♥ 
                 <span class="post-time">
@@ -146,10 +146,75 @@
           
           
 
-          <h1 id="大家好我是渣渣辉"><strong>大家好，我是渣渣辉</strong></h1>
-<h2 id="你没有玩过的船新版本">你没有玩过的船新版本</h2>
-<h3 id="我等你">我等你</h3>
-<p><strong>是兄弟就来砍我</strong></p>
+          <h3 id="自用配置">自用配置</h3>
+<h1 id="均来源于网络收集">均来源于网络收集</h1>
+<hr>
+<h2 id="基本配置">基本配置</h2>
+<ul>
+<li>首先就是先配置键盘</li>
+</ul>
+<pre><code>mkdir $HOME/.termux  
+
+echo &quot;extra-keys = [['ESC','/','-','HOME','UP','END','PGUP'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN']]&quot; &gt;&gt; $HOME/.termux/termux.properties
+</code></pre><ul>
+<li>安装基本工具</li>
+</ul>
+<pre><code>pkg install vim curl wget git unzip unrar
+
+</code></pre><ul>
+<li>外置存储</li>
+</ul>
+<pre><code>pkg install termux-tools
+termux-setup-storage
+</code></pre><ul>
+<li>关联QQ手机文件夹</li>
+</ul>
+<pre><code>ln -s​ 源地址 新地址
+</code></pre><ul>
+<li>修改开头语</li>
+</ul>
+<pre><code>vi $PREFIX/etc/motd​
+</code></pre><h2 id="插件美化">插件、美化</h2>
+<p>安装zsh为默认shell</p>
+<pre><code>pkg install zsh
+</code></pre><ul>
+<li>安装<a href="https://github.com/ohmyzsh/ohmyzsh/blob/master/README.md">oh-my-zsh</a>来管理zsh</li>
+</ul>
+<pre><code>sh -c &quot;$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&quot;
+chmod +x install.sh
+./install.sh
+
+</code></pre><ul>
+<li>安装会有选项，color就是选配色，font是字体。不满意可以运行<code>./install.sh</code>重新配置</li>
+</ul>
+<h5 id="zsh主题">zsh主题</h5>
+<ul>
+<li>在<code>.zshrc</code>可以配置主题,第一行的</li>
+</ul>
+<p><code>ZSH_THEME=&quot;cloud&quot;</code></p>
+<ul>
+<li>
+<p>就是主题设置</p>
+</li>
+<li>
+<p>可以<code>vim .zshrc</code>编辑配置也可以直接输入
+<code>ZSH_THEME=&quot;cloud&quot;</code></p>
+</li>
+<li>
+<p>cloud就是主题名称<a href="https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes">更多主题</a></p>
+</li>
+<li>
+<p>zsh-autosuggestions
+<a href="https://github.com/zsh-users/zsh-autosuggestions">官网</a>，非常好用的一个插件，会记录你之前输入过的所有命令，并且自动匹配你可能想要输入命令，然后按→补全
+安装</p>
+</li>
+</ul>
+<pre><code>git clone https://github.com/zsh-users/zsh-autosuggestions  ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+</code></pre><p>修改<code>.zshrc</code>
+<code>vim .zshrc</code>
+找到<code>plugins=(git)</code>修改为</p>
+<pre><code>plugins=(git zsh-autosuggestions)
+</code></pre><p>plugins代表的是oh my zsh插件，每个插件用空格分开</p>
 
     </div>
 
@@ -176,8 +241,8 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="https://shhv.monster/tags/%E6%B5%8B%E8%AF%95/">
-                    #测试</a></span>
+            <span class="tag"><a href="https://shhv.monster/tags/termux/">
+                    #termux</a></span>
             
             </section>
         
