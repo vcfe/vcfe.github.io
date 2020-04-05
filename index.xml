@@ -1,37 +1,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>vcfe`s Blog on vcfe`s Blog</title>
-    <link>https://shhv.monster/</link>
+    <link>https://vcfe.github.io/</link>
     <description>Recent content in vcfe`s Blog on vcfe`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 28 Feb 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://shhv.monster/" rel="self" type="application/rss+xml" />
+    <atom:link href="https://vcfe.github.io/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Abouts</title>
-      <link>https://shhv.monster/about/</link>
+      <link>https://vcfe.github.io/about/</link>
       <pubDate>Sat, 04 Apr 2020 00:49:48 +0000</pubDate>
       
-      <guid>https://shhv.monster/about/</guid>
+      <guid>https://vcfe.github.io/about/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Posts</title>
-      <link>https://shhv.monster/posts/</link>
+      <link>https://vcfe.github.io/posts/</link>
       <pubDate>Fri, 03 Apr 2020 06:54:17 +0000</pubDate>
       
-      <guid>https://shhv.monster/posts/</guid>
+      <guid>https://vcfe.github.io/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://shhv.monster/about/</link>
+      <link>https://vcfe.github.io/about/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://shhv.monster/about/</guid>
+      <guid>https://vcfe.github.io/about/</guid>
       <description>&lt;p&gt;Written in Go, Hugo is an open source static site generator available under the &lt;a href=&#34;https://github.com/gohugoio/hugo/blob/master/LICENSE&#34;&gt;Apache Licence 2.0.&lt;/a&gt; Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p&gt;
 &lt;p&gt;Hugo makes use of a variety of open source projects including:&lt;/p&gt;
 &lt;ul&gt;
