@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noodp"/>
+    <meta name="author" content="VCFE">
+    <meta name="description" content="vcfe 的个人博客">
+    
+    
+    <link rel="prev" href="https://example.com/2019/markdown-syntax/" />
+    
+    <link rel="canonical" href="https://example.com/2020/first/" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>
+        
+        
+            Termux终端配置 | vcfe`s Blog
+        
+    </title>
+    <meta name="title" content="Termux终端配置 | vcfe`s Blog">
+    
+<link rel="stylesheet" href="/css/main.min.css">
+    
+    
+ 
+
+<script type="application/ld+json">
+{
+    "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "https:\/\/example.com"
+    },
+    "articleSection" : "posts",
+    "name" : "Termux终端配置",
+    "headline" : "Termux终端配置",
+    "description" : "自用配置 均来源于网络收集 基本配置 首先就是先配置键盘 mkdir $HOME\/.termux echo \x26#34;extra-keys = [[\x26#39;ESC\x26#39;,\x26#39;\/\x26#39;,\x26#39;-\x26#39;,\x26#39;HOME\x26#39;,\x26#39;UP\x26#39;,\x26#39;END\x26#39;,\x26#39;PGUP\x26#39;],[\x26#39;TAB\x26#39;,\x26#39;CTRL\x26#39;,\x26#39;ALT\x26#39;,\x26#39;LEFT\x26#39;,\x26#39;DOWN\x26#39;,\x26#39;RIGHT\x26#39;,\x26#39;PGDN\x26#39;]]\x26#34; \x26gt;\x26gt; $HOME\/.termux\/termux.properties 安装基本工具 pkg install vim curl wget git unzip unrar 外置存储 pkg install termux-tools termux-setup-storage 关联QQ手机文件夹 ln -s​ 原地",
+    "inLanguage" : "zh-cn",
+    "author" : "VCFE",
+    "creator" : "VCFE",
+    "publisher": "VCFE",
+    "accountablePerson" : "VCFE",
+    "copyrightHolder" : "VCFE",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-04-03 06:54:17 \x2b0000 UTC",
+    "dateModified" : "2020-04-03 06:54:17 \x2b0000 UTC",
+    "url" : "https:\/\/example.com\/2020\/first\/",
+    "wordCount" : "780",
+    "keywords" : [ "termux", "vcfe`s Blog"]
+}
+</script>
+
+  </head>
+    <body class="">
+        <div class="wrapper">
+            <nav class="navbar">
+    
+        <progress class="content_progress" max="0" value="0"></progress>
+    
+    <div class="container">
+        <div class="navbar-header header-logo">
+            
+            <span class="logo_mark" >></span>
+            <a href="https://example.com">
+                <span class="logo_text" >$ cd /home/ </span>
+                <span class="logo_cursor" ></span>
+            </a>
+            
+        </div>
+        <div class="navbar-right">
+                
+                <span class="menu">
+                
+                <a class="menu-item" href="/posts/" title="">博客</a>
+                
+                <a class="menu-item" href="/categories/" title="">分类</a>
+                
+                <a class="menu-item" href="/tags/" title="">标签</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+                <span class="divide"></span>
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+                </span>
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+    
+        <progress class="content_progress" max="0" value="0"></progress>
+    
+     <div class="container">
+        <div class="navbar-header">
+            <div class="header-logo">
+                
+                    <span class="logo_mark">></span>
+                    <a href="https://example.com">
+                        <span class="logo_text">$ cd /home/ </span>
+                        <span class="logo_cursor"></span>
+                </a>
+                
+            </div>
+            <div class="navbar-right">
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+                <div class="menu-toggle">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">博客</a>
+                
+                <a class="menu-item" href="/categories/" title="">分类</a>
+                
+                <a class="menu-item" href="/tags/" title="">标签</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+            <main class="main">
+                <div class="container">
+                    
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">Termux终端配置</h1>
+        <div class="post-meta">
+                Written by <a itemprop="name" href="https://example.com" rel="author">VCFE</a> with ♥ 
+                <span class="post-time">
+                on <time datetime=2020-04-03 itemprop="datePublished">April 3, 2020</time>
+                </span>
+                in
+                
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        
+                        
+                        
+                          <a href="https://example.com/categories/%E5%AD%A6%E4%B9%A0/"> 学习, </a>
+                        
+                        
+                </span>
+                <span class="post-word-count">780 words</span>
+        </div>
+    </header>
+
+    <div class="post-content">
+        
+
+        
+        
+            
+        
+
+        
+        
+        <h3 id="自用配置">自用配置</h3>
+<h1 id="均来源于网络收集">均来源于网络收集</h1>
+<hr>
+<p><img src="https://gitee.com/vcfe/jpg/raw/master/tooopen_sy_156797394438.jpg" alt=""></p>
+<h2 id="基本配置">基本配置</h2>
+<ul>
+<li>首先就是先配置键盘</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">mkdir $HOME/.termux  
+echo <span style="color:#e6db74">&#34;extra-keys = [[&#39;ESC&#39;,&#39;/&#39;,&#39;-&#39;,&#39;HOME&#39;,&#39;UP&#39;,&#39;END&#39;,&#39;PGUP&#39;],[&#39;TAB&#39;,&#39;CTRL&#39;,&#39;ALT&#39;,&#39;LEFT&#39;,&#39;DOWN&#39;,&#39;RIGHT&#39;,&#39;PGDN&#39;]]&#34;</span> &gt;&gt; $HOME/.termux/termux.properties
+</code></pre></div><ul>
+<li>安装基本工具</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">pkg install vim curl wget git unzip unrar
+</code></pre></div><ul>
+<li>外置存储</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">pkg install termux-tools
+termux-setup-storage
+</code></pre></div><ul>
+<li>关联QQ手机文件夹</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">ln -s​ 原地址 新地址
+</code></pre></div><ul>
+<li>修改开头语</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">vi $PREFIX/etc/motd​
+</code></pre></div><h1 id="插件美化">插件、美化</h1>
+<p>安装zsh为默认shell</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">pkg install zsh
+</code></pre></div><ul>
+<li>安装<a href="https://github.com/ohmyzsh/ohmyzsh/blob/master/README.md">oh-my-zsh</a>来管理zsh</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sh -c <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">chsh -s zsh         <span style="color:#75715e">#切换默认shell为zsh</span>
+</code></pre></div><ul>
+<li>输入chcolor挑选配色，<code>chfont</code>挑选字体</li>
+</ul>
+<h5 id="zsh主题">zsh主题</h5>
+<ul>
+<li>在<code>.zshrc</code>可以配置主题,第一行的</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">ZSH_THEME<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;cloud&#34;</span>
+</code></pre></div><ul>
+<li>就是主题设置</li>
+<li>可以<code>vim .zshrc</code>编辑配置也可以直接输入</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">ZSH_THEME<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;cloud&#34;</span>
+</code></pre></div><ul>
+<li>
+<p>cloud就是主题名称<a href="https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes">更多主题</a></p>
+</li>
+<li>
+<p>zsh-autosuggestions
+<a href="https://github.com/zsh-users/zsh-autosuggestions">官网</a>，非常好用的一个插件，会记录你之前输入过的所有命令，并且自动匹配你可能想要输入命令，然后按→补全
+安装</p>
+</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git clone https://github.com/zsh-users/zsh-autosuggestions  <span style="color:#e6db74">${</span>ZSH_CUSTOM<span style="color:#66d9ef">:-</span>~/.oh-my-zsh/custom<span style="color:#e6db74">}</span>/plugins/zsh-autosuggestions
+</code></pre></div><p>手动修改<code>.zshrc</code></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">vim .zshrc
+</code></pre></div><p>找到**plugins=(git)**修改为</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">plugins<span style="color:#f92672">=(</span>git zsh-autosuggestions<span style="color:#f92672">)</span>
+</code></pre></div><p>plugins代表的是oh my zsh插件，每个插件用空格分开</p>
+<h2 id="进阶">进阶</h2>
+<p>alias
+alias命令用来设置指令的别名。我们可以使用该命令可以将一些较长的命令进行简化。使用alias时，用户必须使用单引号'&lsquo;将原来的命令引起来，防止特殊字符导致错误。</p>
+<p>alias命令的作用只局限于该次登入的操作。若要每次登入都能够使用这些命令别名，<del>则可将相应的alias命令存放到bash的初始化文件/etc/bashrc中。</del>(linux)<br>
+Termux中可以编辑<code>.zshrc</code>文件,添加alias命令</p>
+<p>语法
+alias(选项)(参数)
+选项
+-p：打印已经设置的命令别名。
+参数
+命令别名设置：定义命令别名，格式为“命令别名=‘实际命令’”。</p>
+<p>实例
+alias 的基本使用方法为：</p>
+<p>alias 新的命令='原命令 -选项/参数&rsquo;
+例如：alias l=‘ls -lsh'将重新定义ls命令，现在只需输入l就可以列目录了。直接输入 alias 命令会列出当前系统中所有已经定义的命令别名。</p>
+<p>要删除一个别名，可以使用 unalias 命令，如 unalias l。</p>
+<p>查看系统已经设置的别名：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">alias
+</code></pre></div>
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>VCFE </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=https://example.com/2020/first/>https://example.com/2020/first/</span>
+            </p>
+            
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="https://example.com/tags/termux/">
+                    #termux</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="https://example.com">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="https://example.com/2019/markdown-syntax/" class="prev" rel="prev" title="Markdown Syntax Guide"><i class="iconfont icon-left"></i>&nbsp;Markdown Syntax Guide</a>
+         
+        
+    </div>
+
+    <div class="post-comment">
+        
+            
+                <div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://cdn.bootcss.com/gitalk/1.5.2/gitalk.css">
+<script src="https://cdn.bootcss.com/gitalk/1.5.2/gitalk.min.js"></script>
+<script>
+    const gitalk = new Gitalk({
+
+        clientID: 'f65e44f2b9a21100c483',
+        clientSecret: 'f5122e9f3054b4fe25d1398853a0184b048499d8',
+        repo: 'vcfe.github.io',
+        owner: 'vcfe',
+        admin: ['vcfe'],
+        id: location.pathname, 
+        distractionFreeMode: false 
+    });
+    (function () {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('gitalk-container').innerHTML = 'Gitalk comments not available by default when the website is previewed locally.';
+            return;
+        }
+        gitalk.render('gitalk-container');
+    })();
+</script>
+
+            
+        
+    </div>
+</article>
+                </div>
+            </main>
+            <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2020 - 2020</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i>
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="https://example.com">VCFE</a> | </span>
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/Mogeko/Mogege" target="_blank" rel="external nofollow">Mogege</a></span>
+    </div>
+</footer>
+
+
+
+
+
+
+<script src="/js/vendor_main.min.js" defer ></script>
+
+<script src="https://cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js"></script>
+<script> pangu.spacingPage();</script>
+
+        </div>
+    </body>
+</html>

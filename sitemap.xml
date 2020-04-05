@@ -32,7 +32,7 @@
     </url>
   
     <url>
-      <loc>https://example.com/post/</loc>
+      <loc>https://example.com/posts/</loc>
       
       <lastmod>2020-04-03T06:54:17+00:00</lastmod>
       
@@ -62,7 +62,7 @@
     </url>
   
     <url>
-      <loc>https://example.com/post/first/</loc>
+      <loc>https://example.com/2020/first/</loc>
       
       <lastmod>2020-04-03T06:54:17+00:00</lastmod>
       
@@ -112,7 +112,7 @@
     </url>
   
     <url>
-      <loc>https://example.com/post/markdown-syntax/</loc>
+      <loc>https://example.com/2019/markdown-syntax/</loc>
       
       <lastmod>2019-03-11T00:00:00+00:00</lastmod>
       
@@ -162,7 +162,7 @@
     </url>
   
     <url>
-      <loc>https://example.com/post/rich-content/</loc>
+      <loc>https://example.com/2019/rich-content/</loc>
       
       <lastmod>2019-03-10T00:00:00+00:00</lastmod>
       
@@ -182,7 +182,7 @@
     </url>
   
     <url>
-      <loc>https://example.com/post/placeholder-text/</loc>
+      <loc>https://example.com/2019/placeholder-text/</loc>
       
       <lastmod>2019-03-09T00:00:00+00:00</lastmod>
       
@@ -202,7 +202,7 @@
     </url>
   
     <url>
-      <loc>https://example.com/post/math-typesetting/</loc>
+      <loc>https://example.com/2019/math-typesetting/</loc>
       
       <lastmod>2019-03-08T00:00:00+00:00</lastmod>
       
@@ -222,7 +222,7 @@
     </url>
   
     <url>
-      <loc>https://example.com/post/emoji-support/</loc>
+      <loc>https://example.com/2019/emoji-support/</loc>
       
       <lastmod>2019-03-05T00:00:00+00:00</lastmod>
       
