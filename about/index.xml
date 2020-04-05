@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Abouts on 和光同尘</title>
-    <link>https://shhv.monster/about/</link>
-    <description>Recent content in Abouts on 和光同尘</description>
+    <title>Abouts on vcfe`s Blog</title>
+    <link>https://example.com/about/</link>
+    <description>Recent content in Abouts on vcfe`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
+    <language>zh-cn</language>
     <lastBuildDate>Sat, 04 Apr 2020 00:49:48 +0000</lastBuildDate>
     
-	<atom:link href="https://shhv.monster/about/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.com/about/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>https://shhv.monster/about/about/</link>
+      <link>https://example.com/about/about/</link>
       <pubDate>Sat, 04 Apr 2020 00:49:48 +0000</pubDate>
       
-      <guid>https://shhv.monster/about/about/</guid>
+      <guid>https://example.com/about/about/</guid>
       <description></description>
     </item>
     

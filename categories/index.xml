@@ -1,22 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on 和光同尘</title>
-    <link>https://shhv.monster/categories/</link>
-    <description>Recent content in Categories on 和光同尘</description>
+    <title>Categories on vcfe`s Blog</title>
+    <link>https://example.com/categories/</link>
+    <description>Recent content in Categories on vcfe`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
+    <language>zh-cn</language>
     <lastBuildDate>Fri, 03 Apr 2020 06:54:17 +0000</lastBuildDate>
     
-	<atom:link href="https://shhv.monster/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>学习</title>
-      <link>https://shhv.monster/categories/%E5%AD%A6%E4%B9%A0/</link>
+      <link>https://example.com/categories/%E5%AD%A6%E4%B9%A0/</link>
       <pubDate>Fri, 03 Apr 2020 06:54:17 +0000</pubDate>
       
-      <guid>https://shhv.monster/categories/%E5%AD%A6%E4%B9%A0/</guid>
+      <guid>https://example.com/categories/%E5%AD%A6%E4%B9%A0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>syntax</title>
+      <link>https://example.com/categories/syntax/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/categories/syntax/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>themes</title>
+      <link>https://example.com/categories/themes/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/categories/themes/</guid>
       <description></description>
     </item>
     

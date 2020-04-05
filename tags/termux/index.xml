@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>termux on 和光同尘</title>
-    <link>https://shhv.monster/tags/termux/</link>
-    <description>Recent content in termux on 和光同尘</description>
+    <title>termux on vcfe`s Blog</title>
+    <link>https://example.com/tags/termux/</link>
+    <description>Recent content in termux on vcfe`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
+    <language>zh-cn</language>
     <lastBuildDate>Fri, 03 Apr 2020 06:54:17 +0000</lastBuildDate>
     
-	<atom:link href="https://shhv.monster/tags/termux/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.com/tags/termux/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Termux终端配置</title>
-      <link>https://shhv.monster/post/first/</link>
+      <link>https://example.com/post/first/</link>
       <pubDate>Fri, 03 Apr 2020 06:54:17 +0000</pubDate>
       
-      <guid>https://shhv.monster/post/first/</guid>
+      <guid>https://example.com/post/first/</guid>
       <description>自用配置 均来源于网络收集 基本配置 首先就是先配置键盘 mkdir $HOME/.termux echo &amp;#34;extra-keys = [[&amp;#39;ESC&amp;#39;,&amp;#39;/&amp;#39;,&amp;#39;-&amp;#39;,&amp;#39;HOME&amp;#39;,&amp;#39;UP&amp;#39;,&amp;#39;END&amp;#39;,&amp;#39;PGUP&amp;#39;],[&amp;#39;TAB&amp;#39;,&amp;#39;CTRL&amp;#39;,&amp;#39;ALT&amp;#39;,&amp;#39;LEFT&amp;#39;,&amp;#39;DOWN&amp;#39;,&amp;#39;RIGHT&amp;#39;,&amp;#39;PGDN&amp;#39;]]&amp;#34; &amp;gt;&amp;gt; $HOME/.termux/termux.properties 安装基本工具 pkg install vim curl wget git unzip unrar 外置存储 pkg install termux-tools termux-setup-storage 关联QQ手机文件夹 ln -s​ 原地</description>
     </item>
     

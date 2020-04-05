@@ -1,29 +1,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>和光同尘 on 和光同尘</title>
-    <link>https://shhv.monster/</link>
-    <description>Recent content in 和光同尘 on 和光同尘</description>
+    <title>vcfe`s Blog on vcfe`s Blog</title>
+    <link>https://example.com/</link>
+    <description>Recent content in vcfe`s Blog on vcfe`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
-    <lastBuildDate>Sat, 04 Apr 2020 00:49:48 +0000</lastBuildDate>
-    <atom:link href="https://shhv.monster/" rel="self" type="application/rss+xml" />
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 28 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.com/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Abouts</title>
-      <link>https://shhv.monster/about/</link>
+      <link>https://example.com/about/</link>
       <pubDate>Sat, 04 Apr 2020 00:49:48 +0000</pubDate>
       
-      <guid>https://shhv.monster/about/</guid>
+      <guid>https://example.com/about/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Posts</title>
-      <link>https://shhv.monster/post/</link>
+      <link>https://example.com/post/</link>
       <pubDate>Fri, 03 Apr 2020 06:54:17 +0000</pubDate>
       
-      <guid>https://shhv.monster/post/</guid>
+      <guid>https://example.com/post/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://example.com/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/about/</guid>
+      <description>&lt;p&gt;Written in Go, Hugo is an open source static site generator available under the &lt;a href=&#34;https://github.com/gohugoio/hugo/blob/master/LICENSE&#34;&gt;Apache Licence 2.0.&lt;/a&gt; Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p&gt;
+&lt;p&gt;Hugo makes use of a variety of open source projects including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yuin/goldmark&#34;&gt;https://github.com/yuin/goldmark&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/alecthomas/chroma&#34;&gt;https://github.com/alecthomas/chroma&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/muesli/smartcrop&#34;&gt;https://github.com/muesli/smartcrop&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cobra&#34;&gt;https://github.com/spf13/cobra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/viper&#34;&gt;https://github.com/spf13/viper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.&lt;/p&gt;
+&lt;p&gt;Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.&lt;/p&gt;
+&lt;p&gt;Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.&lt;/p&gt;
+&lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/gohugoio&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
