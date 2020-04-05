@@ -46,7 +46,7 @@
     "articleSection" : "post",
     "name" : "Termux终端配置",
     "headline" : "Termux终端配置",
-    "description" : "自用配置 均来源于网络收集 基本配置 首先就是先配置键盘 $mkdir $HOME\/.termux $echo \x26quot;extra-keys = [[\x27ESC\x27,\x27\/\x27,\x27-\x27,\x27HOME\x27,\x27UP\x27,\x27END\x27,\x27PGUP\x27],[\x27TAB\x27,\x27CTRL\x27,\x27ALT\x27,\x27LEFT\x27,\x27DOWN\x27,\x27RIGHT\x27,\x27PGDN\x27]]\x26quot; \x26gt;\x26gt; $HOME\/.termux\/termux.properties 安装基本工具 $pkg install vim curl wget git unzip unrar 外置存储 pkg install termux-tools termux-setup-storage 关联QQ手机文件夹 ln -s​ 源地",
+    "description" : "自用配置 均来源于网络收集 基本配置 首先就是先配置键盘 mkdir $HOME\/.termux echo \x26#34;extra-keys = [[\x26#39;ESC\x26#39;,\x26#39;\/\x26#39;,\x26#39;-\x26#39;,\x26#39;HOME\x26#39;,\x26#39;UP\x26#39;,\x26#39;END\x26#39;,\x26#39;PGUP\x26#39;],[\x26#39;TAB\x26#39;,\x26#39;CTRL\x26#39;,\x26#39;ALT\x26#39;,\x26#39;LEFT\x26#39;,\x26#39;DOWN\x26#39;,\x26#39;RIGHT\x26#39;,\x26#39;PGDN\x26#39;]]\x26#34; \x26gt;\x26gt; $HOME\/.termux\/termux.properties 安装基本工具 pkg install vim curl wget git unzip unrar 外置存储 pkg install termux-tools termux-setup-storage 关联QQ手机文件夹 ln -s​ 原地",
     "inLanguage" : "zh-CN",
     "author" : "vcfe",
     "creator" : "vcfe",
@@ -57,7 +57,7 @@
     "datePublished": "2020-04-03 06:54:17 \x2b0000 UTC",
     "dateModified" : "2020-04-03 06:54:17 \x2b0000 UTC",
     "url" : "https:\/\/shhv.monster\/post\/first\/",
-    "wordCount" : "377",
+    "wordCount" : "780",
     "keywords" : [ "termux", "和光同尘"]
 }
 </script>
@@ -135,12 +135,14 @@
                         <a href="https://shhv.monster/categories/%E5%AD%A6%E4%B9%A0/"> 学习 </a>
                         
                 </span>
-				<span class="post-word-count">, 377 words</span>
+				<span class="post-word-count">, 780 words</span>
         </div>
     </header>
     <div class="post-content">
         
 
+        
+            
         
 
         
@@ -157,57 +159,52 @@
           <h3 id="自用配置">自用配置</h3>
 <h1 id="均来源于网络收集">均来源于网络收集</h1>
 <hr>
+<p><img src="https://gitee.com/vcfe/jpg/raw/master/tooopen_sy_156797394438.jpg" alt=""></p>
 <h2 id="基本配置">基本配置</h2>
 <ul>
 <li>首先就是先配置键盘</li>
 </ul>
-<pre><code>$mkdir $HOME/.termux  
-
-$echo &quot;extra-keys = [['ESC','/','-','HOME','UP','END','PGUP'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN']]&quot; &gt;&gt; $HOME/.termux/termux.properties
-</code></pre><ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">mkdir $HOME/.termux  
+echo <span style="color:#e6db74">&#34;extra-keys = [[&#39;ESC&#39;,&#39;/&#39;,&#39;-&#39;,&#39;HOME&#39;,&#39;UP&#39;,&#39;END&#39;,&#39;PGUP&#39;],[&#39;TAB&#39;,&#39;CTRL&#39;,&#39;ALT&#39;,&#39;LEFT&#39;,&#39;DOWN&#39;,&#39;RIGHT&#39;,&#39;PGDN&#39;]]&#34;</span> &gt;&gt; $HOME/.termux/termux.properties
+</code></pre></div><ul>
 <li>安装基本工具</li>
 </ul>
-<pre><code>$pkg install vim curl wget git unzip unrar
-
-</code></pre><ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">pkg install vim curl wget git unzip unrar
+</code></pre></div><ul>
 <li>外置存储</li>
 </ul>
-<pre><code>pkg install termux-tools
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">pkg install termux-tools
 termux-setup-storage
-</code></pre><ul>
+</code></pre></div><ul>
 <li>关联QQ手机文件夹</li>
 </ul>
-<pre><code>ln -s​ 源地址 新地址
-</code></pre><ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">ln -s​ 原地址 新地址
+</code></pre></div><ul>
 <li>修改开头语</li>
 </ul>
-<pre><code>vi $PREFIX/etc/motd​
-</code></pre><h2 id="插件美化">插件、美化</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">vi $PREFIX/etc/motd​
+</code></pre></div><h1 id="插件美化">插件、美化</h1>
 <p>安装zsh为默认shell</p>
-<pre><code>pkg install zsh
-</code></pre><ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">pkg install zsh
+</code></pre></div><ul>
 <li>安装<a href="https://github.com/ohmyzsh/ohmyzsh/blob/master/README.md">oh-my-zsh</a>来管理zsh</li>
 </ul>
-<pre><code>sh -c &quot;$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&quot;
-chmod +x install.sh
-./install.sh
-
-</code></pre><ul>
-<li>安装会有选项，color就是选配色，font是字体。不满意可以运行<code>./install.sh</code>重新配置</li>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sh -c <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">chsh -s zsh         <span style="color:#75715e">#切换默认shell为zsh</span>
+</code></pre></div><ul>
+<li>输入chcolor挑选配色，<code>chfont</code>挑选字体</li>
 </ul>
 <h5 id="zsh主题">zsh主题</h5>
 <ul>
 <li>在<code>.zshrc</code>可以配置主题,第一行的</li>
 </ul>
-<p><code>ZSH_THEME=&quot;cloud&quot;</code></p>
-<ul>
-<li>
-<p>就是主题设置</p>
-</li>
-<li>
-<p>可以<code>vim .zshrc</code>编辑配置也可以直接输入
-<code>ZSH_THEME=&quot;cloud&quot;</code></p>
-</li>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">ZSH_THEME<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;cloud&#34;</span>
+</code></pre></div><ul>
+<li>就是主题设置</li>
+<li>可以<code>vim .zshrc</code>编辑配置也可以直接输入</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">ZSH_THEME<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;cloud&#34;</span>
+</code></pre></div><ul>
 <li>
 <p>cloud就是主题名称<a href="https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes">更多主题</a></p>
 </li>
@@ -217,13 +214,31 @@ chmod +x install.sh
 安装</p>
 </li>
 </ul>
-<pre><code>git clone https://github.com/zsh-users/zsh-autosuggestions  ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-</code></pre><p>修改<code>.zshrc</code>
-<code>vim .zshrc</code>
-找到<code>plugins=(git)</code>修改为</p>
-<pre><code>plugins=(git zsh-autosuggestions)
-</code></pre><p>plugins代表的是oh my zsh插件，每个插件用空格分开</p>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git clone https://github.com/zsh-users/zsh-autosuggestions  <span style="color:#e6db74">${</span>ZSH_CUSTOM<span style="color:#66d9ef">:-</span>~/.oh-my-zsh/custom<span style="color:#e6db74">}</span>/plugins/zsh-autosuggestions
+</code></pre></div><p>手动修改<code>.zshrc</code></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">vim .zshrc
+</code></pre></div><p>找到**plugins=(git)**修改为</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">plugins<span style="color:#f92672">=(</span>git zsh-autosuggestions<span style="color:#f92672">)</span>
+</code></pre></div><p>plugins代表的是oh my zsh插件，每个插件用空格分开</p>
+<h2 id="进阶">进阶</h2>
+<p>alias
+alias命令用来设置指令的别名。我们可以使用该命令可以将一些较长的命令进行简化。使用alias时，用户必须使用单引号'&lsquo;将原来的命令引起来，防止特殊字符导致错误。</p>
+<p>alias命令的作用只局限于该次登入的操作。若要每次登入都能够使用这些命令别名，<del>则可将相应的alias命令存放到bash的初始化文件/etc/bashrc中。</del>(linux)<br>
+Termux中可以编辑<code>.zshrc</code>文件,添加alias命令</p>
+<p>语法
+alias(选项)(参数)
+选项
+-p：打印已经设置的命令别名。
+参数
+命令别名设置：定义命令别名，格式为“命令别名=‘实际命令’”。</p>
+<p>实例
+alias 的基本使用方法为：</p>
+<p>alias 新的命令='原命令 -选项/参数&rsquo;
+例如：alias l=‘ls -lsh'将重新定义ls命令，现在只需输入l就可以列目录了。直接输入 alias 命令会列出当前系统中所有已经定义的命令别名。</p>
+<p>要删除一个别名，可以使用 unalias 命令，如 unalias l。</p>
+<p>查看系统已经设置的别名：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">alias
+</code></pre></div>
     </div>
 
     <div class="post-copyright">
@@ -304,8 +319,9 @@ chmod +x install.sh
 
 
     
-    
-    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
     
   
 
