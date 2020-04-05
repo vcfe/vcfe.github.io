@@ -118,14 +118,60 @@
     <header class="post-header">
         <h1 class="post-title" itemprop="name headline">About</h1>
         <div class="post-meta">
-                Written by <a itemprop="name" href="https://shhv.monster/" rel="author">vcfe</a> with ♥ 
+                Written by <a itemprop="name" href="https://shhv.monster/" rel="author">vcfe</a> with ♥
                 <span class="post-time">
                 on <time datetime=2020-04-04 itemprop="datePublished">April 4, 2020</time>
                 </span>
                 in
                 
+
+                |
+                <a href="#gitalk-container" itemprop="discussionUrl">
+                    <span class="gitalk-comment-count" itemprop="commentCount"></span>
+                </a>
+                
         </div>
     </header>
+
+        <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title"></h2>
+  
+  <div class="post-toc-content">
+    <nav id="TableOfContents"></nav>
+  </div>
+</div>
+
+<script type="text/javascript">
+  window.onload = function () {
+    var fix = $('.post-toc');
+    var end = $('.post-comment');
+    var fixTop = fix.offset().top, fixHeight = fix.height();
+    var endTop, miss;
+    var offsetTop = fix[0].offsetTop;
+
+    $(window).scroll(function () {
+      var docTop = Math.max(document.body.scrollTop, document.documentElement.scrollTop);
+
+      if (end.length > 0) {
+        endTop = end.offset().top;
+        miss = endTop - docTop - fixHeight;
+      }
+
+      if (fixTop < docTop) {
+        fix.css({ 'position': 'fixed' });
+        if ((end.length > 0) && (endTop < (docTop + fixHeight))) {
+          fix.css({ top: miss });
+        } else {
+          fix.css({ top: 0 });
+        }
+      } else {
+        fix.css({ 'position': 'absolute' });
+        fix.css({ top: offsetTop });
+      }
+    })
+  }
+</script>
+
     <div class="post-content">
         
 
@@ -133,7 +179,7 @@
 
         
         
-     
+
           
           
           
@@ -146,14 +192,14 @@
     </div>
 
     <div class="post-copyright">
-             
+            
             <p class="copyright-item">
                 <span>Author:</span>
                 <span>vcfe </span>
                 </p>
             
-           
-             
+
+            
             <p class="copyright-item">
                     <span>Link:</span>
                     <a href=https://shhv.monster/about/about/>https://shhv.monster/about/about/</span>
@@ -162,48 +208,18 @@
             
     </div>
 
-  
+
     <div class="post-tags">
         
         <section>
-                <a href="javascript:window.history.back();">back</a></span> · 
+                <a href="javascript:window.history.back();">back</a></span> ·
                 <span><a href="https://shhv.monster/">home</a></span>
         </section>
     </div>
 
     <div class="post-nav">
-         
         
-    </div>
-
-    <div class="post-comment">
-          
-                 
-          
-           
-
-<div id="gitalk-container"></div>
-<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-<script>
-  const gitalk = new Gitalk({
-    clientID: 'f65e44f2b9a21100c483',
-    clientSecret: 'f5122e9f3054b4fe25d1398853a0184b048499d8',
-    repo: 'vcfe.github.io',
-    owner: 'vcfe',
-    admin: ['vcfe'],
-    id: location.pathname, 
-    distractionFreeMode: false 
-  });
-  (function() {
-    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-      document.getElementById('gitalk-container').innerHTML = 'Gitalk comments not available by default when the website is previewed locally.';
-      return;
-    }
-    gitalk.render('gitalk-container');
-  })();
-</script>
-
+        
     </div>
 </article>
           </div>
@@ -215,14 +231,14 @@
         <span itemprop="copyrightYear">2020 - 2020</span>
         
         <span class="with-love">
-    	 <i class="iconfont icon-love"></i> 
+    	 <i class="iconfont icon-love"></i>
          </span>
          
-            <span class="author" itemprop="copyrightHolder"><a href="https://shhv.monster/">vcfe</a> | </span> 
+            <span class="author" itemprop="copyrightHolder"><a href="https://shhv.monster/">vcfe</a> | </span>
          
 
          
-		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span>
     </div>
 </footer>
 
