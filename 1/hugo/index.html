@@ -22,10 +22,10 @@
     <title>
         
         
-            手机利用hugo&#43;github搭建静态博客 | vcfe`s Blog
+            无root手机利用hugo&#43;github搭建静态博客 | vcfe`s Blog
         
     </title>
-    <meta name="title" content="手机利用hugo&#43;github搭建静态博客 | vcfe`s Blog">
+    <meta name="title" content="无root手机利用hugo&#43;github搭建静态博客 | vcfe`s Blog">
     
 <link rel="stylesheet" href="/css/main.min.css">
     
@@ -41,8 +41,8 @@
          "@id": "https:\/\/vcfe.github.io"
     },
     "articleSection" : "posts",
-    "name" : "手机利用hugo\x2bgithub搭建静态博客",
-    "headline" : "手机利用hugo\x2bgithub搭建静态博客",
+    "name" : "无root手机利用hugo\x2bgithub搭建静态博客",
+    "headline" : "无root手机利用hugo\x2bgithub搭建静态博客",
     "description" : "纯手机端搭建静态博客 主要是记录自己折腾的过程，踩过的一些坑。 准备工作: APP:termux``chrome``solid Explorer chrome不是必须，但是不会英语的话翻译功能就很有作用 solid Expl",
     "inLanguage" : "zh-cn",
     "author" : "VCFE",
@@ -54,7 +54,7 @@
     "datePublished": "0001-01-01 00:00:00 \x2b0000 UTC",
     "dateModified" : "0001-01-01 00:00:00 \x2b0000 UTC",
     "url" : "https:\/\/vcfe.github.io\/1\/hugo\/",
-    "wordCount" : "287",
+    "wordCount" : "1722",
     "keywords" : [ "termux","hugo","github", "vcfe`s Blog"]
 }
 </script>
@@ -136,7 +136,7 @@
                     
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">手机利用hugo&#43;github搭建静态博客</h1>
+        <h1 class="post-title" itemprop="name headline">无root手机利用hugo&#43;github搭建静态博客</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://vcfe.github.io" rel="author">VCFE</a> with ♥ 
                 <span class="post-time">
@@ -153,7 +153,7 @@
                         
                         
                 </span>
-                <span class="post-word-count">287 words</span>
+                <span class="post-word-count">1722 words</span>
         </div>
     </header>
 
@@ -162,6 +162,8 @@
 
         
         
+            
+        
 
         
         
@@ -169,20 +171,135 @@
 <blockquote>
 <p>主要是记录自己折腾的过程，踩过的一些坑。</p>
 </blockquote>
+<ul>
+<li>准备工作:</li>
+</ul>
 <blockquote>
-<p>准备工作:</p>
 <p>APP:<strong><code>termux``chrome``solid Explorer</code></strong><br>
 chrome不是必须，但是不会英语的话翻译功能就很有作用<br>
 solid Explorer是一个文件管理器支持sftp，用来管理termux内部文件，对于无root的手机用termux管理文件我这种不是码农的人来说太费时间。有root的手机可以使用任意文件管理器替代。</p>
 <p>网络环境:<strong>最好能科学上网，提升termux安装效率，访问github的速度</strong></p>
 </blockquote>
 <h1 id="正文">正文</h1>
+<ul>
+<li>
 <p>第一步肯定是打开termux。第一次使用的话参考<a href="https://shhv.monster/2020/termux/">termux简单配置</a></p>
+</li>
+<li>
 <p>输入<br>
 <code>pkg install hugo</code><br>
 安装hugo框架。如果出现yes/no通通yes，毕竟万物皆可yes</p>
-<p>安装以后输入<code>hugo site mysite</code></p>
-<!-- raw HTML omitted -->
+</li>
+<li>
+<p>安装以后输入<br>
+<code>hugo new site mysite</code></p>
+</li>
+</ul>
+<p>到这里框架就已经搞定了，接下来就是配置。</p>
+<ul>
+<li>先安装主题</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cd mysite
+git init
+git submodule add https://github.com/Mogeko/mogege themes/mogege
+</code></pre></div><p>上面的命令意思是定位到mysite文件夹，git初始化，下载主题到themes,主题的名mogege。</p>
+<ul>
+<li>接下来编辑config.toml,主题内有模板，我们复制简单修改就行</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cp -f ~/mysite/themes/mogege/exampleSite/config.toml .
+</code></pre></div><p><img src="https://gitee.com/vcfe/jpg/raw/master/Screenshot_2020-04-06-17-11-40-67_84d3000e3f4017145260f7618db1d683.jpg" alt="复制config.toml到当前路径"></p>
+<p>路径后面有个空格和一个点，复制到当前路径的意思。~这个符号代表home路径也就是/data/data/com.termux/files/home/</p>
+<blockquote>
+<p>上面复制操作可以用solid Explorer代替，更直观，更简易。当然得先开启sftp服务</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">pkg install openssh
+sshd
+</code></pre></div><p>设置root密码</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">passwd root
+</code></pre></div><p>提示输入新密码，输入是看不见的，就是没有光标，但是输入还是有效的，密码输入两次，输入一次按回车再输一次就可以了，简单的就好我设置密码为1
+在solid Explorer存储设备管理器里添加sftp，主机名<code>127.0.0.1</code>，端口<code>8022</code>，用户名<code>root</code>，密码就是你设置的密码。之后的复制粘贴跟常规文件管理器是一样的</p>
+</blockquote>
+<p>config.toml里参数都有注释，应该都看得到，按自己的配置去改就行了。</p>
+<p><strong>这里给一个便捷操作，hugo博文是存储在mysite/content/posts下的，编辑软件是无法直接读取的，终端下vim编辑又不好操作，所以我们可以创建软连接，连接posts文件夹到手机存储跟目录，这样编辑软件就可以直接读取，大大减少了操作繁琐浪费的时间。</strong><br>
+示例:<br>
+我用的是MarKor(一个markdown编辑器)<br>
+默认读取的是手机目录里默认的文档文件夹/storage/emulated/0/Documents</p>
+<blockquote>
+<p>(termux是不能读取根目录的，所以termux需要获取存储权限  ,这样termux就会在home目录下创建根目录的软连接)这步不知道是不是必须</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">pkg install termux-tools
+termux-setup-storage
+</code></pre></div></blockquote>
+<p>接着关联posts和Documents文件夹</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">ln -s /storage/emulated/0/Documents ~/mysite/content/posts
+</code></pre></div><p>以后写博文就不需要复制了，存储在Documents就等于存在posts里</p>
+<p>启动本地预览</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo server -t mogege -D
+</code></pre></div><p>浏览器输入<a href="http://localhost:1313">http://localhost:1313</a><br>
+不出意外就能看到博客主页了<br>
+到这里hugo框架就搞定了</p>
+<h2 id="部署博客到github">部署博客到github</h2>
+<ul>
+<li>
+<p><a href="https://github.com/join?source=header-home">注册账号 </a>
+这个就不说了，看不懂英文可以用chrom浏览器</p>
+</li>
+<li>
+<p>下面的操作我就用chrome做演示，设置里开启翻译就可以了</p>
+</li>
+<li>
+<p>新建仓库</p>
+</li>
+</ul>
+<ol>
+<li>第一步<br>
+<img src="https://gitee.com/vcfe/jpg/raw/master/IMG_20200406_181940.jpg" alt="第一步"></li>
+<li>第二步
+<img src="https://gitee.com/vcfe/jpg/raw/master/IMG_20200406_182050.jpg" alt="第二步"></li>
+<li>第三步<br>
+这里注意一下仓库名称必须是<code>你的用户名.github.io</code>选项跟图上一样就行
+<img src="https://gitee.com/vcfe/jpg/raw/master/Screenshot_2020-04-06-18-13-16-69_40deb401b9ffe8e1df2f1cc5ba480b12.jpg" alt="第三步"></li>
+</ol>
+<ul>
+<li>创建仓库以后我们就来配置ssh密钥</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cd
+ssh-keygen -t rsa -C <span style="color:#e6db74">&#34;你的邮箱&#34;</span>
+</code></pre></div><p>一路回车</p>
+<ul>
+<li>复制密钥</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cat ~/.ssh/id_rsa.pub
+</code></pre></div><ul>
+<li>github添加密钥</li>
+</ul>
+<p><a href="https://github.com/settings/keys">点击这里创建密钥</a></p>
+<p>新的密钥
+<img src="https://gitee.com/vcfe/jpg/raw/master/IMG_20200406_192505.jpg" alt="新的密钥"></p>
+<p>确定创建</p>
+<p><img src="https://gitee.com/vcfe/jpg/raw/master/IMG_20200406_192927.jpg" alt="创建密钥"></p>
+<ul>
+<li>git配置  <br>
+在termux中输入</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git config --global user.name <span style="color:#e6db74">&#34;你的名字&#34;</span>
+git config --global user.email <span style="color:#e6db74">&#34;邮箱地址&#34;</span>
+</code></pre></div><ul>
+<li>关联git仓库</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git clone https://github.com/你的用户名/你的用户名.github.io.git
+</code></pre></div><p>执行之后会在当前目录生成<code>你的用户名.github.io</code>的文件夹，这是关联github仓库的文件夹，需要上传的文件都要移动到这里</p>
+<ul>
+<li>生成静态博客并上传github<br>
+上面说过<code>hugo server -t mogege -D</code>这是本地预览，如果满意以后就可以生成静态文件了</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cd mysite
+hugo
+</code></pre></div><p><strong>注意:本地预览和生成静态文件的命令必须在mysite下执行</strong><br>
+执行以后生成的静态文件存储在<code>mysite</code>目录下的<code>public</code>文件夹内。
+复制<code>public</code>下所以文件到<code>你的用户名.github.io</code>文件夹内</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cp -f -r ~/mysite/public/* ~/你的用户名.github.io
+</code></pre></div><p>上传github</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git add -A ;git commit -am <span style="color:#e6db74">&#39;First Commit&#39;</span> ; git push​
+</code></pre></div><p>上传完毕就可以通过你的用户名.github.io访问你的博客了</p>
 
     </div>
 
