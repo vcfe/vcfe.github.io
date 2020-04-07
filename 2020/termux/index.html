@@ -54,7 +54,7 @@
     "datePublished": "2020-04-03 06:54:17 \x2b0000 UTC",
     "dateModified" : "2020-04-03 06:54:17 \x2b0000 UTC",
     "url" : "https:\/\/vcfe.github.io\/2020\/termux\/",
-    "wordCount" : "793",
+    "wordCount" : "1087",
     "keywords" : [ "termux", "vcfe`s Blog"]
 }
 </script>
@@ -147,7 +147,7 @@
                         
                         
                 </span>
-                <span class="post-word-count">793 words</span>
+                <span class="post-word-count">1087 words</span>
         </div>
     </header>
 
@@ -226,9 +226,29 @@ termux-setup-storage
 </code></pre></div><p>找到**plugins=(git)**修改为</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">plugins<span style="color:#f92672">=(</span>git zsh-autosuggestions<span style="color:#f92672">)</span>
 </code></pre></div><p>plugins代表的是oh my zsh插件，每个插件用空格分开</p>
+<hr>
 <h2 id="进阶">进阶</h2>
-<p>alias
-alias命令用来设置指令的别名。我们可以使用该命令可以将一些较长的命令进行简化。使用alias时，用户必须使用单引号'&lsquo;将原来的命令引起来，防止特殊字符导致错误。</p>
+<ul>
+<li>openssh</li>
+</ul>
+<p>搭建ssh服务，可以实现电脑给手机传输文件，连接VPS等,我最喜欢的还是利用sftp管理termux内部文件，对于没有root权限的手机来说，简直不要太方便。<br>
+安装<br>
+<code>pkg install openssh</code><br>
+修改root密码<br>
+<code>passwd root</code><br>
+输入密码是看不见的，输入之后回车再输入一次。<br>
+开启服务，输入<br>
+<code>sshd</code><br>
+现在就可以利用支持sftp的文件管理器连接termux</p>
+<p>以solid Explorer为例:<br>
+在solid Explorer存储设备管理器里添加sftp，主机名<code>127.0.0.1</code>，端口<code>8022</code>，用户名<code>root</code>，密码就是你设置的密码。<br>
+<img src="https://gitee.com/vcfe/jpg/raw/master/Screenshot_2020-04-07-14-07-42-08_e24af01bec3189413074866d0f854b7c.jpg" alt="连接成功"><br>
+这样文件管理是不是便捷了许多。搭建sftp以后还可以利用frp内网穿透实现远程管理。<br>
+这个操作先留着，下次水一篇文章</p>
+<ul>
+<li>alias
+alias命令用来设置指令的别名。我们可以使用该命令可以将一些较长的命令进行简化。使用alias时，用户必须使用单引号'&lsquo;将原来的命令引起来，防止特殊字符导致错误。</li>
+</ul>
 <p>alias命令的作用只局限于该次登入的操作。若要每次登入都能够使用这些命令别名，<del>则可将相应的alias命令存放到bash的初始化文件/etc/bashrc中。</del>(linux)<br>
 Termux中可以编辑<code>.zshrc</code>文件,添加alias命令</p>
 <p>语法

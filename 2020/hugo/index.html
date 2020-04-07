@@ -54,7 +54,7 @@
     "datePublished": "2020-04-06 08:54:17 \x2b0000 UTC",
     "dateModified" : "2020-04-06 08:54:17 \x2b0000 UTC",
     "url" : "https:\/\/vcfe.github.io\/2020\/hugo\/",
-    "wordCount" : "1722",
+    "wordCount" : "1730",
     "keywords" : [ "termux","hugo","github", "vcfe`s Blog"]
 }
 </script>
@@ -147,7 +147,7 @@
                         
                         
                 </span>
-                <span class="post-word-count">1722 words</span>
+                <span class="post-word-count">1730 words</span>
         </div>
     </header>
 
@@ -209,8 +209,12 @@ git submodule add https://github.com/Mogeko/mogege themes/mogege
 sshd
 </code></pre></div><p>设置root密码</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">passwd root
-</code></pre></div><p>提示输入新密码，输入是看不见的，就是没有光标，但是输入还是有效的，密码输入两次，输入一次按回车再输一次就可以了，简单的就好我设置密码为1
-在solid Explorer存储设备管理器里添加sftp，主机名<code>127.0.0.1</code>，端口<code>8022</code>，用户名<code>root</code>，密码就是你设置的密码。之后的复制粘贴跟常规文件管理器是一样的</p>
+</code></pre></div><p>提示输入新密码，输入是看不见的，就是没有光标，但是输入还是有效的，密码输入两次，输入一次按回车再输一次就可以了，简单的就好我设置密码为1<br>
+开启服务,输入<br>
+<code>sshd</code></p>
+</blockquote>
+<blockquote>
+<p>在solid Explorer存储设备管理器里添加sftp，主机名<code>127.0.0.1</code>，端口<code>8022</code>，用户名<code>root</code>，密码就是你设置的密码。之后的复制粘贴跟常规文件管理器是一样的</p>
 </blockquote>
 <p>config.toml里参数都有注释，应该都看得到，按自己的配置去改就行了。</p>
 <p><strong>这里给一个便捷操作，hugo博文是存储在mysite/content/posts下的，编辑软件是无法直接读取的，终端下vim编辑又不好操作，所以我们可以创建软连接，连接posts文件夹到手机存储跟目录，这样编辑软件就可以直接读取，大大减少了操作繁琐浪费的时间。</strong><br>
