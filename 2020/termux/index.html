@@ -22,10 +22,10 @@
     <title>
         
         
-            Termux终端配置 | vcfe`s Blog
+            Termux终端配置,4.8更新一键脚本 | vcfe`s Blog
         
     </title>
-    <meta name="title" content="Termux终端配置 | vcfe`s Blog">
+    <meta name="title" content="Termux终端配置,4.8更新一键脚本 | vcfe`s Blog">
     
 <link rel="stylesheet" href="/css/main.min.css">
     
@@ -41,8 +41,8 @@
          "@id": "https:\/\/vcfe.github.io"
     },
     "articleSection" : "posts",
-    "name" : "Termux终端配置",
-    "headline" : "Termux终端配置",
+    "name" : "Termux终端配置,4.8更新一键脚本",
+    "headline" : "Termux终端配置,4.8更新一键脚本",
     "description" : "自用配置 均来源于网络收集 基本配置 按照惯例先更新系统pkg upgrade 首先就是先配置键盘 mkdir $HOME\/.termux echo \x26#34;extra-keys = [[\x26#39;ESC\x26#39;,\x26#39;\/\x26#39;,\x26#39;-\x26#39;,\x26#39;HOME\x26#39;,\x26#39;UP\x26#39;,\x26#39;END\x26#39;,\x26#39;PGUP\x26#39;],[\x26#39;TAB\x26#39;,\x26#39;CTRL\x26#39;,\x26#39;ALT\x26#39;,\x26#39;LEFT\x26#39;,\x26#39;DOWN\x26#39;,\x26#39;RIGHT\x26#39;,\x26#39;PGDN\x26#39;]]\x26#34; \x26gt;\x26gt; $HOME\/.termux\/termux.properties 安装基本工具 pkg install vim curl wget git unzip unrar 外置存储 pkg install termux-tools termux-setup-storage 关联",
     "inLanguage" : "zh-cn",
     "author" : "VCFE",
@@ -54,7 +54,7 @@
     "datePublished": "2020-04-03 06:54:17 \x2b0000 UTC",
     "dateModified" : "2020-04-03 06:54:17 \x2b0000 UTC",
     "url" : "https:\/\/vcfe.github.io\/2020\/termux\/",
-    "wordCount" : "1087",
+    "wordCount" : "1116",
     "keywords" : [ "termux", "vcfe`s Blog"]
 }
 </script>
@@ -130,7 +130,7 @@
                     
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">Termux终端配置</h1>
+        <h1 class="post-title" itemprop="name headline">Termux终端配置,4.8更新一键脚本</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://vcfe.github.io" rel="author">VCFE</a> with ♥ 
                 <span class="post-time">
@@ -147,7 +147,7 @@
                         
                         
                 </span>
-                <span class="post-word-count">1087 words</span>
+                <span class="post-word-count">1116 words</span>
         </div>
     </header>
 
@@ -264,6 +264,12 @@ alias 的基本使用方法为：</p>
 <p>要删除一个别名，可以使用 unalias 命令，如 unalias l。</p>
 <p>查看系统已经设置的别名：</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">alias
+</code></pre></div><ul>
+<li>以上内容整个成一个脚本，需先安装<code>curl</code><br>
+<code>pkg in curl</code><br>
+之后</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sh -c <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span> https://gitee.com/vcfe/termuxBackup/raw/master/ini.sh<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
 </code></pre></div><!-- raw HTML omitted -->
 
     </div>
