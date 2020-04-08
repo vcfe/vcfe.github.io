@@ -6,7 +6,7 @@
     <description>Recent content in Categories on vcfe`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 06 Apr 2020 08:54:17 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2020 14:03:47 +0000</lastBuildDate>
     
 	<atom:link href="https://vcfe.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>学习</title>
       <link>https://vcfe.github.io/categories/%E5%AD%A6%E4%B9%A0/</link>
-      <pubDate>Mon, 06 Apr 2020 08:54:17 +0000</pubDate>
+      <pubDate>Wed, 08 Apr 2020 14:03:47 +0000</pubDate>
       
       <guid>https://vcfe.github.io/categories/%E5%AD%A6%E4%B9%A0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>玩机</title>
+      <link>https://vcfe.github.io/categories/%E7%8E%A9%E6%9C%BA/</link>
+      <pubDate>Wed, 08 Apr 2020 14:03:47 +0000</pubDate>
+      
+      <guid>https://vcfe.github.io/categories/%E7%8E%A9%E6%9C%BA/</guid>
       <description></description>
     </item>
     
