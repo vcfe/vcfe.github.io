@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hugo on vcfe`s Blog</title>
-    <link>https://vcfe.github.io/tags/hugo/</link>
+    <link>https://shhv.monster/tags/hugo/</link>
     <description>Recent content in hugo on vcfe`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 06 Apr 2020 08:54:17 +0000</lastBuildDate>
     
-	<atom:link href="https://vcfe.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://shhv.monster/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>无root手机利用hugo&#43;github搭建静态博客</title>
-      <link>https://vcfe.github.io/2020/hugo/</link>
+      <link>https://shhv.monster/2020/hugo/</link>
       <pubDate>Mon, 06 Apr 2020 08:54:17 +0000</pubDate>
       
-      <guid>https://vcfe.github.io/2020/hugo/</guid>
+      <guid>https://shhv.monster/2020/hugo/</guid>
       <description>纯手机端搭建静态博客 主要是记录自己折腾的过程，踩过的一些坑。 准备工作: APP:termux``chrome``solid Explorer chrome不是必须，但是不会英语的话翻译功能就很有作用 solid Expl</description>
     </item>
     
