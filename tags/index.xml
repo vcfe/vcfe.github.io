@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on vcfe`s Blog</title>
-    <link>https://vcfe.github.io/tags/</link>
+    <link>https://vcfe.gitee.io/tags/</link>
     <description>Recent content in Tags on vcfe`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 08 Apr 2020 14:03:47 +0000</lastBuildDate>
     
-	<atom:link href="https://vcfe.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vcfe.gitee.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>termux</title>
-      <link>https://vcfe.github.io/tags/termux/</link>
+      <link>https://vcfe.gitee.io/tags/termux/</link>
       <pubDate>Wed, 08 Apr 2020 14:03:47 +0000</pubDate>
       
-      <guid>https://vcfe.github.io/tags/termux/</guid>
+      <guid>https://vcfe.gitee.io/tags/termux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>玩机</title>
-      <link>https://vcfe.github.io/tags/%E7%8E%A9%E6%9C%BA/</link>
+      <link>https://vcfe.gitee.io/tags/%E7%8E%A9%E6%9C%BA/</link>
       <pubDate>Wed, 08 Apr 2020 14:03:47 +0000</pubDate>
       
-      <guid>https://vcfe.github.io/tags/%E7%8E%A9%E6%9C%BA/</guid>
+      <guid>https://vcfe.gitee.io/tags/%E7%8E%A9%E6%9C%BA/</guid>
       <description></description>
     </item>
     
     <item>
       <title>github</title>
-      <link>https://vcfe.github.io/tags/github/</link>
+      <link>https://vcfe.gitee.io/tags/github/</link>
       <pubDate>Mon, 06 Apr 2020 08:54:17 +0000</pubDate>
       
-      <guid>https://vcfe.github.io/tags/github/</guid>
+      <guid>https://vcfe.gitee.io/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>https://vcfe.github.io/tags/hugo/</link>
+      <link>https://vcfe.gitee.io/tags/hugo/</link>
       <pubDate>Mon, 06 Apr 2020 08:54:17 +0000</pubDate>
       
-      <guid>https://vcfe.github.io/tags/hugo/</guid>
+      <guid>https://vcfe.gitee.io/tags/hugo/</guid>
       <description></description>
     </item>
     
