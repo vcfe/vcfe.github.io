@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on vcfe`s Blog</title>
-    <link>https://shhv.monster/tags/</link>
+    <link>https://vcfe.xyz/tags/</link>
     <description>Recent content in Tags on vcfe`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 08 Apr 2020 14:03:47 +0000</lastBuildDate>
     
-	<atom:link href="https://shhv.monster/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vcfe.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>termux</title>
-      <link>https://shhv.monster/tags/termux/</link>
+      <link>https://vcfe.xyz/tags/termux/</link>
       <pubDate>Wed, 08 Apr 2020 14:03:47 +0000</pubDate>
       
-      <guid>https://shhv.monster/tags/termux/</guid>
+      <guid>https://vcfe.xyz/tags/termux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>玩机</title>
-      <link>https://shhv.monster/tags/%E7%8E%A9%E6%9C%BA/</link>
+      <link>https://vcfe.xyz/tags/%E7%8E%A9%E6%9C%BA/</link>
       <pubDate>Wed, 08 Apr 2020 14:03:47 +0000</pubDate>
       
-      <guid>https://shhv.monster/tags/%E7%8E%A9%E6%9C%BA/</guid>
+      <guid>https://vcfe.xyz/tags/%E7%8E%A9%E6%9C%BA/</guid>
       <description></description>
     </item>
     
     <item>
       <title>github</title>
-      <link>https://shhv.monster/tags/github/</link>
+      <link>https://vcfe.xyz/tags/github/</link>
       <pubDate>Mon, 06 Apr 2020 08:54:17 +0000</pubDate>
       
-      <guid>https://shhv.monster/tags/github/</guid>
+      <guid>https://vcfe.xyz/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>https://shhv.monster/tags/hugo/</link>
+      <link>https://vcfe.xyz/tags/hugo/</link>
       <pubDate>Mon, 06 Apr 2020 08:54:17 +0000</pubDate>
       
-      <guid>https://shhv.monster/tags/hugo/</guid>
+      <guid>https://vcfe.xyz/tags/hugo/</guid>
       <description></description>
     </item>
     
