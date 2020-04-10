@@ -5,8 +5,31 @@
     <description>Recent content in vcfe`s Blog on vcfe`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 06 Apr 2020 15:37:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2020 18:56:38 +0000</lastBuildDate>
     <atom:link href="https://vcfe.xyz/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About</title>
+      <link>https://vcfe.xyz/about/</link>
+      <pubDate>Fri, 10 Apr 2020 18:56:38 +0000</pubDate>
+      
+      <guid>https://vcfe.xyz/about/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;关于我&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;  打工大叔咯，喜欢前沿科技，喜欢折腾，但是有总是三分钟热度，想的多做得少。
+梦想做个程序员，真的只是梦里想。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;和我交流&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://gitee.com/vcfe/jpg/raw/master/Screenshot_2020-04-11-02-45-03-37.jpg&#34; alt=&#34;微信&#34;&gt;&lt;br&gt;
+一起探讨，一起交流，一起进步&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;人到中年身不由己&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
     
     <item>
       <title>Posts</title>
@@ -27,28 +50,6 @@
 偶发兴趣造就的博客，分享我在玩机之路渐行渐远（?好多奇怪的东西……）o(*≧▽≦)ツ&lt;br&gt;
 ┏━┓&lt;br&gt;
 教程,资源分享&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://vcfe.xyz/about/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://vcfe.xyz/about/</guid>
-      <description>&lt;p&gt;Written in Go, Hugo is an open source static site generator available under the &lt;a href=&#34;https://github.com/gohugoio/hugo/blob/master/LICENSE&#34;&gt;Apache Licence 2.0.&lt;/a&gt; Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p&gt;
-&lt;p&gt;Hugo makes use of a variety of open source projects including:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/yuin/goldmark&#34;&gt;https://github.com/yuin/goldmark&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/alecthomas/chroma&#34;&gt;https://github.com/alecthomas/chroma&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/muesli/smartcrop&#34;&gt;https://github.com/muesli/smartcrop&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cobra&#34;&gt;https://github.com/spf13/cobra&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/viper&#34;&gt;https://github.com/spf13/viper&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.&lt;/p&gt;
-&lt;p&gt;Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.&lt;/p&gt;
-&lt;p&gt;Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.&lt;/p&gt;
-&lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/gohugoio&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
