@@ -6,10 +6,19 @@
     <description>Recent content in Posts on vcfe`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 12 Apr 2020 14:39:52 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2020 23:00:02 +0000</lastBuildDate>
     
 	<atom:link href="https://vcfe.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Git的基本命令</title>
+      <link>https://vcfe.xyz/2020/git/</link>
+      <pubDate>Sun, 12 Apr 2020 23:00:02 +0000</pubDate>
+      
+      <guid>https://vcfe.xyz/2020/git/</guid>
+      <description>配置本地的仓库 git config --global user.name &amp;#34;your name&amp;#34; git config --global user.email &amp;#34;email@qq.com&amp;#34; （自己的邮箱) 初始化本地仓库 git init (注：执行完此条指令之后会在工程的根目录生成一个隐藏的.git文件) 将本</description>
+    </item>
     
     <item>
       <title>Gcp实现root密码ssh连接</title>

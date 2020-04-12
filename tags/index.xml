@@ -6,10 +6,19 @@
     <description>Recent content in Tags on vcfe`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 12 Apr 2020 14:39:52 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2020 23:00:02 +0000</lastBuildDate>
     
 	<atom:link href="https://vcfe.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>git</title>
+      <link>https://vcfe.xyz/tags/git/</link>
+      <pubDate>Sun, 12 Apr 2020 23:00:02 +0000</pubDate>
+      
+      <guid>https://vcfe.xyz/tags/git/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>gcp</title>
