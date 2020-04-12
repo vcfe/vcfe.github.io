@@ -6,10 +6,19 @@
     <description>Recent content in Posts on vcfe`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 08 Apr 2020 14:03:47 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2020 14:39:52 +0000</lastBuildDate>
     
 	<atom:link href="https://vcfe.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Gcp实现root密码ssh连接</title>
+      <link>https://vcfe.xyz/2020/gcp/</link>
+      <pubDate>Sun, 12 Apr 2020 14:39:52 +0000</pubDate>
+      
+      <guid>https://vcfe.xyz/2020/gcp/</guid>
+      <description>GCP 就是谷歌的一个云服务。 进入VM实例列表通过“SSH”点击“在浏览器窗口打开”进入VPS服务器（下图） 切换到管理员用户 sudo -i 编辑sshd_co</description>
+    </item>
     
     <item>
       <title>利用termux手机给手机刷机</title>

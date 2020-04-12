@@ -9,9 +9,9 @@
     <meta name="description" content="vcfe 的个人博客">
     
     
+    <link rel="prev" href="https://vcfe.xyz/2020/adb/" />
     
-    <link rel="next" href="https://vcfe.xyz/about/" />
-    <link rel="canonical" href="https://vcfe.xyz/yl/" />
+    <link rel="canonical" href="https://vcfe.xyz/2020/gcp/" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -22,10 +22,10 @@
     <title>
         
         
-            友情链接 | vcfe`s Blog
+            Gcp实现root密码ssh连接 | vcfe`s Blog
         
     </title>
-    <meta name="title" content="友情链接 | vcfe`s Blog">
+    <meta name="title" content="Gcp实现root密码ssh连接 | vcfe`s Blog">
     
 <link rel="stylesheet" href="/css/main.min.css">
     
@@ -40,10 +40,10 @@
          "@type": "WebPage",
          "@id": "https:\/\/vcfe.xyz"
     },
-    "articleSection" : "",
-    "name" : "友情链接",
-    "headline" : "友情链接",
-    "description" : "杏铃の小本 偶发兴趣造就的博客，分享我在玩机之路渐行渐远（?好多奇怪的东西……）o(*≧▽≦)ツ ┏━┓ 教程,资源分享",
+    "articleSection" : "posts",
+    "name" : "Gcp实现root密码ssh连接",
+    "headline" : "Gcp实现root密码ssh连接",
+    "description" : "GCP 就是谷歌的一个云服务。 进入VM实例列表通过“SSH”点击“在浏览器窗口打开”进入VPS服务器（下图） 切换到管理员用户 sudo -i 编辑sshd_co",
     "inLanguage" : "zh-cn",
     "author" : "vcfe",
     "creator" : "vcfe",
@@ -51,11 +51,11 @@
     "accountablePerson" : "vcfe",
     "copyrightHolder" : "vcfe",
     "copyrightYear" : "2020",
-    "datePublished": "2020-04-06 15:37:06 \x2b0000 UTC",
-    "dateModified" : "2020-04-06 15:37:06 \x2b0000 UTC",
-    "url" : "https:\/\/vcfe.xyz\/yl\/",
-    "wordCount" : "57",
-    "keywords" : [  "vcfe`s Blog"]
+    "datePublished": "2020-04-12 14:39:52 \x2b0000 UTC",
+    "dateModified" : "2020-04-12 14:39:52 \x2b0000 UTC",
+    "url" : "https:\/\/vcfe.xyz\/2020\/gcp\/",
+    "wordCount" : "256",
+    "keywords" : [ "gcp", "vcfe`s Blog"]
 }
 </script>
 
@@ -145,15 +145,24 @@
                     
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">友情链接</h1>
+        <h1 class="post-title" itemprop="name headline">Gcp实现root密码ssh连接</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://vcfe.xyz" rel="author">vcfe</a> with ♥ 
                 <span class="post-time">
-                on <time datetime=2020-04-06 itemprop="datePublished">April 6, 2020</time>
+                on <time datetime=2020-04-12 itemprop="datePublished">April 12, 2020</time>
                 </span>
                 in
                 
-                <span class="post-word-count">57 words</span>
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        
+                        
+                        
+                          <a href="https://vcfe.xyz/categories/linux/"> linux, </a>
+                        
+                        
+                </span>
+                <span class="post-word-count">256 words</span>
         </div>
     </header>
 
@@ -165,10 +174,26 @@
 
         
         
-        <p><a href="https://66ccff.work">杏铃の小本</a><br>
-偶发兴趣造就的博客，分享我在玩机之路渐行渐远（?好多奇怪的东西……）o(*≧▽≦)ツ<br>
-┏━┓<br>
-教程,资源分享</p>
+        <p>GCP 就是谷歌的一个云服务。
+进入VM实例列表通过“SSH”点击“在浏览器窗口打开”进入VPS服务器（下图）</p>
+<p>切换到管理员用户</p>
+<p><code>sudo -i</code>
+编辑sshd_config文件</p>
+<p><code>vi /etc/ssh/sshd_config</code></p>
+<p><strong>进入命令行模式（:）,然后执行</strong></p>
+<p>将PermitRootLogin no 替换成 PermitRootLogin yes允许用户登录</p>
+<p><code>%s/PermitRootLogin no/PermitRootLogin yes/</code></p>
+<p><strong>然后再进入命令行模式（:）,然后执行</strong></p>
+<p>将PasswordAuthentication no 替换成 PasswordAuthentication yes允许密码登录</p>
+<p><code>%s/PasswordAuthentication no/PasswordAuthentication yes/</code></p>
+<p>然后再进入命令行模式（:）,然后执行
+保存文件并退出</p>
+<p><code>wq!</code></p>
+<p>修改管理员用户密码</p>
+<p><code>passwd root</code></p>
+<p>#接下来输入您的新密码并确认密码，两遍的密码要一样</p>
+<p>重启ssh服务</p>
+<p><code>systemctl restart sshd</code></p>
 
     </div>
 
@@ -183,7 +208,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=https://vcfe.xyz/yl/>https://vcfe.xyz/yl/</span>
+                    <a href=https://vcfe.xyz/2020/gcp/>https://vcfe.xyz/2020/gcp/</span>
             </p>
             
             
@@ -192,6 +217,14 @@
   
     <div class="post-tags">
         
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="https://vcfe.xyz/tags/gcp/">
+                    #gcp</a></span>
+            
+            </section>
+        
         <section>
                 <a href="javascript:window.history.back();">back</a></span> · 
                 <span><a href="https://vcfe.xyz">home</a></span>
@@ -199,9 +232,9 @@
     </div>
 
     <div class="post-nav">
-         
         
-        <a href="https://vcfe.xyz/about/" class="next" rel="next" title="About">About&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="https://vcfe.xyz/2020/adb/" class="prev" rel="prev" title="利用termux手机给手机刷机"><i class="iconfont icon-left"></i>&nbsp;利用termux手机给手机刷机</a>
+         
         
     </div>
 
