@@ -675,3 +675,193 @@
 0,2020-04-11 20:17:03.325,UserAssert,onCreateAgent,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
 0,2020-04-11 20:17:03.495,UserAssert,syncDataFullStart,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
 0,2020-04-11 20:17:03.547,UserAssert,syncDataFullEnd,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-11 21:55:17.376,UserAssert,onCreateAgent,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-11 21:55:17.416,UserAssert,syncDataFullStart,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-11 21:55:17.479,UserAssert,syncDataFullEnd,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-11 21:55:18.517,UserAssert,syncDataFullStart,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-11 21:55:18.550,UserAssert,syncDataFullEnd,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-11 23:44:38.693,UserAssert,syncDataFullStart,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-11 23:44:38.761,UserAssert,onCreateAgent,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-11 23:44:38.883,UserAssert,syncDataFullEnd,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-11 23:44:39.794,UserAssert,syncDataFullStart,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-11 23:44:39.864,UserAssert,syncDataFullEnd,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-11 23:46:32.969,UserAssert,onCreateAgent,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-11 23:46:33.055,UserAssert,syncDataFullStart,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-11 23:46:33.146,UserAssert,syncDataFullEnd,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-11 23:46:34.018,UserAssert,syncDataFullStart,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-11 23:46:34.050,UserAssert,syncDataFullEnd,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 00:05:27.680,UserAssert,onCreateAgent,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 00:05:27.744,UserAssert,syncDataFullStart,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 00:05:27.928,UserAssert,syncDataFullEnd,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 00:05:28.561,UserAssert,syncDataFullStart,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 00:05:28.600,UserAssert,syncDataFullEnd,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 00:18:19.125,UserAssert,onCreateAgent,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 00:18:19.175,UserAssert,syncDataFullStart,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 00:18:19.260,UserAssert,syncDataFullEnd,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 00:18:20.128,UserAssert,syncDataFullStart,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 00:18:20.153,UserAssert,syncDataFullEnd,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 00:31:53.645,UserAssert,syncDataFullStart,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 00:31:53.828,UserAssert,syncDataFullEnd,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 00:31:54.509,UserAssert,onCreateAgent,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 00:31:54.641,UserAssert,syncDataFullStart,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 00:31:54.694,UserAssert,syncDataFullEnd,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 01:22:22.355,UserAssert,syncDataFullStart,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 01:22:22.491,UserAssert,syncDataFullEnd,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 01:22:23.148,UserAssert,onCreateAgent,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 01:22:23.426,UserAssert,syncDataFullStart,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 01:22:23.453,UserAssert,syncDataFullEnd,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 05:16:24.113,UserAssert,syncDataFullStart,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 05:16:24.295,UserAssert,onCreateAgent,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 05:16:24.365,UserAssert,syncDataFullEnd,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 05:16:38.389,UserAssert,syncDataFullStart,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 05:16:38.563,UserAssert,syncDataFullEnd,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 11:27:50.498,UserAssert,syncDataFullStart,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 11:27:50.540,UserAssert,onCreateAgent,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 11:27:50.639,UserAssert,syncDataFullEnd,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 11:27:51.794,UserAssert,syncDataFullStart,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 12:17:55.406,UserAssert,syncDataFullStart,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 12:17:55.536,UserAssert,syncDataFullEnd,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 12:17:56.560,UserAssert,syncDataFullStart,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 13:25:01.547,UserAssert,onCreateAgent,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 13:25:01.609,UserAssert,syncDataFullStart,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 13:25:01.668,UserAssert,syncDataFullEnd,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 13:25:02.568,UserAssert,syncDataFullStart,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 13:25:02.610,UserAssert,syncDataFullEnd,"imageCount: 114, videoCount: 6, cloudCount: 79, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 13:31:49.867,UserAssert,onCreateAgent,"imageCount: 115, videoCount: 7, cloudCount: 81, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 13:31:49.929,UserAssert,syncDataFullStart,"imageCount: 115, videoCount: 7, cloudCount: 81, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 13:31:50.016,UserAssert,syncDataFullEnd,"imageCount: 115, videoCount: 7, cloudCount: 81, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 13:31:50.877,UserAssert,syncDataFullStart,"imageCount: 115, videoCount: 7, cloudCount: 81, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 13:33:49.352,UserAssert,onCreateAgent,"imageCount: 115, videoCount: 8, cloudCount: 81, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 13:33:49.389,UserAssert,syncDataFullStart,"imageCount: 115, videoCount: 8, cloudCount: 81, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 13:33:49.436,UserAssert,syncDataFullEnd,"imageCount: 115, videoCount: 8, cloudCount: 81, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 13:33:50.373,UserAssert,syncDataFullStart,"imageCount: 115, videoCount: 8, cloudCount: 81, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 13:33:50.414,UserAssert,syncDataFullEnd,"imageCount: 115, videoCount: 8, cloudCount: 81, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 14:01:38.381,UserAssert,onCreateAgent,"imageCount: 116, videoCount: 9, cloudCount: 83, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 14:01:38.443,UserAssert,syncDataFullStart,"imageCount: 116, videoCount: 9, cloudCount: 83, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 14:01:38.519,UserAssert,syncDataFullEnd,"imageCount: 116, videoCount: 9, cloudCount: 83, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 14:01:39.488,UserAssert,syncDataFullStart,"imageCount: 116, videoCount: 9, cloudCount: 83, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 15:23:05.036,UserAssert,onCreateAgent,"imageCount: 116, videoCount: 9, cloudCount: 83, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 15:23:05.081,UserAssert,syncDataFullStart,"imageCount: 116, videoCount: 9, cloudCount: 83, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 15:23:05.208,UserAssert,syncDataFullEnd,"imageCount: 116, videoCount: 9, cloudCount: 83, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 15:23:06.131,UserAssert,syncDataFullStart,"imageCount: 116, videoCount: 9, cloudCount: 83, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 15:23:06.195,UserAssert,syncDataFullEnd,"imageCount: 116, videoCount: 9, cloudCount: 83, recycleCount: 11, checkPermissionOk: true"
+1,2020-04-12 18:56:38.085,ClearThumb,clearIvalidThumb,"delete: 0, all: 74"
+1,2020-04-12 18:56:53.641,ClearThumb,clearIvalidThumb,"delete: 0, all: 75"
+1,2020-04-12 18:57:17.236,ClearThumb,clearIvalidThumb,"delete: 0, all: 173"
+1,2020-04-12 18:57:44.541,ClearThumb,clearIvalidThumb,"delete: 0, all: 272"
+1,2020-04-12 18:58:06.113,ClearThumb,clearIvalidThumb,"delete: 0, all: 371"
+1,2020-04-12 18:58:11.767,ClearThumb,clearIvalidThumb,"delete: 0, all: 371"
+1,2020-04-12 18:58:29.619,ClearThumb,clearIvalidThumb,"delete: 0, all: 373"
+1,2020-04-12 18:58:54.712,ClearThumb,clearIvalidThumb,"delete: 0, all: 373"
+1,2020-04-12 18:59:58.347,ClearThumb,clearIvalidThumb,"delete: 0, all: 373"
+1,2020-04-12 19:10:39.696,ClearThumb,clearIvalidThumb,"delete: 0, all: 373"
+0,2020-04-12 20:00:35.982,UserAssert,onCreateAgent,"imageCount: 117, videoCount: 7, cloudCount: 783, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 20:00:36.108,UserAssert,syncDataFullStart,"imageCount: 117, videoCount: 7, cloudCount: 783, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 20:00:36.172,UserAssert,syncDataFullEnd,"imageCount: 117, videoCount: 7, cloudCount: 783, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 20:00:37.056,UserAssert,syncDataFullStart,"imageCount: 117, videoCount: 7, cloudCount: 783, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 20:00:37.134,UserAssert,syncDataFullEnd,"imageCount: 117, videoCount: 7, cloudCount: 783, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 20:07:01.831,UserAssert,onCreateAgent,"imageCount: 117, videoCount: 7, cloudCount: 783, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 20:07:02.028,UserAssert,syncDataFullStart,"imageCount: 117, videoCount: 7, cloudCount: 783, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 20:07:03.801,UserAssert,syncDataFullEnd,"imageCount: 117, videoCount: 7, cloudCount: 783, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 20:07:04.011,UserAssert,syncDataFullStart,"imageCount: 117, videoCount: 7, cloudCount: 783, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 20:07:56.542,UserAssert,syncDataFullStart,"imageCount: 117, videoCount: 7, cloudCount: 783, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 20:07:56.873,UserAssert,syncDataFullEnd,"imageCount: 117, videoCount: 7, cloudCount: 783, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 22:02:59.793,UserAssert,syncDataFullStart,"imageCount: 117, videoCount: 7, cloudCount: 783, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 22:02:59.837,UserAssert,syncDataFullEnd,"imageCount: 117, videoCount: 7, cloudCount: 783, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 22:02:59.935,UserAssert,onCreateAgent,"imageCount: 117, videoCount: 7, cloudCount: 783, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 22:03:00.620,UserAssert,syncDataFullStart,"imageCount: 117, videoCount: 7, cloudCount: 783, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 22:03:00.640,UserAssert,syncDataFullEnd,"imageCount: 117, videoCount: 7, cloudCount: 783, recycleCount: 11, checkPermissionOk: true"
+0,2020-04-12 22:21:24.182,UserAssert,syncDataFullStart,"imageCount: 115, videoCount: 7, cloudCount: 785, recycleCount: 14, checkPermissionOk: true"
+0,2020-04-12 22:21:24.199,UserAssert,syncDataFullEnd,"imageCount: 114, videoCount: 7, cloudCount: 785, recycleCount: 14, checkPermissionOk: true"
+0,2020-04-12 22:21:24.228,UserAssert,syncDataFullStart,"imageCount: 114, videoCount: 7, cloudCount: 785, recycleCount: 14, checkPermissionOk: true"
+0,2020-04-12 22:21:24.258,UserAssert,syncDataFullEnd,"imageCount: 113, videoCount: 7, cloudCount: 786, recycleCount: 15, checkPermissionOk: true"
+0,2020-04-12 22:21:24.288,UserAssert,syncDataFullStart,"imageCount: 113, videoCount: 7, cloudCount: 786, recycleCount: 15, checkPermissionOk: true"
+0,2020-04-12 22:21:24.332,UserAssert,syncDataFullEnd,"imageCount: 112, videoCount: 7, cloudCount: 787, recycleCount: 16, checkPermissionOk: true"
+0,2020-04-12 22:21:24.352,UserAssert,syncDataFullStart,"imageCount: 112, videoCount: 7, cloudCount: 787, recycleCount: 17, checkPermissionOk: true"
+0,2020-04-12 22:21:24.408,UserAssert,syncDataFullEnd,"imageCount: 111, videoCount: 7, cloudCount: 788, recycleCount: 19, checkPermissionOk: true"
+0,2020-04-12 22:21:24.421,UserAssert,syncDataFullStart,"imageCount: 111, videoCount: 7, cloudCount: 789, recycleCount: 19, checkPermissionOk: true"
+0,2020-04-12 22:21:24.481,UserAssert,syncDataFullEnd,"imageCount: 108, videoCount: 7, cloudCount: 791, recycleCount: 20, checkPermissionOk: true"
+0,2020-04-12 22:21:24.509,UserAssert,syncDataFullStart,"imageCount: 108, videoCount: 7, cloudCount: 792, recycleCount: 20, checkPermissionOk: true"
+0,2020-04-12 22:21:24.533,UserAssert,syncDataFullEnd,"imageCount: 108, videoCount: 7, cloudCount: 792, recycleCount: 23, checkPermissionOk: true"
+0,2020-04-12 22:21:24.547,UserAssert,syncDataFullStart,"imageCount: 108, videoCount: 7, cloudCount: 792, recycleCount: 23, checkPermissionOk: true"
+0,2020-04-12 22:21:24.615,UserAssert,syncDataFullEnd,"imageCount: 104, videoCount: 7, cloudCount: 794, recycleCount: 24, checkPermissionOk: true"
+0,2020-04-12 22:21:24.643,UserAssert,syncDataFullStart,"imageCount: 104, videoCount: 7, cloudCount: 794, recycleCount: 25, checkPermissionOk: true"
+0,2020-04-12 22:21:24.691,UserAssert,syncDataFullEnd,"imageCount: 103, videoCount: 7, cloudCount: 796, recycleCount: 32, checkPermissionOk: true"
+0,2020-04-12 22:21:24.717,UserAssert,syncDataFullStart,"imageCount: 103, videoCount: 7, cloudCount: 796, recycleCount: 32, checkPermissionOk: true"
+0,2020-04-12 22:21:24.798,UserAssert,syncDataFullEnd,"imageCount: 96, videoCount: 7, cloudCount: 801, recycleCount: 32, checkPermissionOk: true"
+0,2020-04-12 22:21:24.809,UserAssert,syncDataFullStart,"imageCount: 96, videoCount: 7, cloudCount: 801, recycleCount: 32, checkPermissionOk: true"
+0,2020-04-12 22:21:24.889,UserAssert,syncDataFullEnd,"imageCount: 96, videoCount: 7, cloudCount: 804, recycleCount: 32, checkPermissionOk: true"
+0,2020-04-12 22:21:35.984,UserAssert,syncDataFullStart,"imageCount: 60, videoCount: 7, cloudCount: 804, recycleCount: 68, checkPermissionOk: true"
+0,2020-04-12 22:21:35.991,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/IMG_20200406_181940.jpg
+0,2020-04-12 22:21:35.992,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/IMG_20200406_182050.jpg
+0,2020-04-12 22:21:35.993,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/IMG_20200406_192505.jpg
+0,2020-04-12 22:21:35.994,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/IMG_20200406_192927.jpg
+0,2020-04-12 22:21:35.994,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/IMG_20200410_212148.jpg
+0,2020-04-12 22:21:35.995,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/Screenshot_2020-01-09-15-54-42-57.jpg
+0,2020-04-12 22:21:35.997,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/Screenshot_2020-01-09-15-56-44-72.jpg
+0,2020-04-12 22:21:35.998,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/Screenshot_2020-04-01-09-33-25-92_8b7aa5be40a89c6a7df806c347da652a.jpg
+0,2020-04-12 22:21:35.998,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/Screenshot_2020-04-01-13-23-23-35_84d3000e3f4017145260f7618db1d683.jpg
+0,2020-04-12 22:21:35.999,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/Screenshot_2020-04-01-13-25-46-02_84d3000e3f4017145260f7618db1d683.jpg
+0,2020-04-12 22:21:36.000,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/Screenshot_2020-04-02-15-27-44-91.jpg
+0,2020-04-12 22:21:36.001,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/Screenshot_2020-04-03-15-43-52-94_84d3000e3f4017145260f7618db1d683.jpg
+0,2020-04-12 22:21:36.001,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/Screenshot_2020-04-03-15-44-17-90_84d3000e3f4017145260f7618db1d683.jpg
+0,2020-04-12 22:21:36.002,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/Screenshot_2020-04-05-19-30-43-83.jpg
+0,2020-04-12 22:21:36.003,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/Screenshot_2020-04-06-17-11-40-67_84d3000e3f4017145260f7618db1d683.jpg
+0,2020-04-12 22:21:36.004,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/Screenshot_2020-04-06-18-13-16-69_40deb401b9ffe8e1df2f1cc5ba480b12.jpg
+0,2020-04-12 22:21:36.005,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/Screenshot_2020-04-06-20-44-59-01_97550f1d11c73369bbee8f7d47965447.jpg
+0,2020-04-12 22:21:36.006,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/Screenshot_2020-04-06-20-57-53-50_84d3000e3f4017145260f7618db1d683.jpg
+0,2020-04-12 22:21:36.006,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/Screenshot_2020-04-07-14-07-42-08_e24af01bec3189413074866d0f854b7c.jpg
+0,2020-04-12 22:21:36.007,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/Screenshot_2020-04-08-16-53-29-46.jpg
+0,2020-04-12 22:21:36.008,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/Screenshot_2020-04-09-16-39-58-81_9f356fec6156259007e86bae4b3d4066.jpg
+0,2020-04-12 22:21:36.008,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/Screenshot_2020-04-09-21-26-02-38_3915bacb930634b7e206116f9dc9486f.jpg
+0,2020-04-12 22:21:36.009,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/Screenshot_2020-04-09-21-36-08-50_1abe9f084a1522bc5fdd131258ea4cc0.jpg
+0,2020-04-12 22:21:36.020,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/Screenshot_2020-04-10-14-29-46-34_ed5c27deb850c7685ff83a1a8021f662.jpg
+0,2020-04-12 22:21:36.023,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/Screenshot_2020-04-10-21-06-13-56.jpg
+0,2020-04-12 22:21:36.024,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/Screenshot_2020-04-10-21-06-35-21.jpg
+0,2020-04-12 22:21:36.026,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/Screenshot_2020-04-10-21-07-05-27.jpg
+0,2020-04-12 22:21:36.026,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/Screenshot_2020-04-10-21-09-35-60_8b7aa5be40a89c6a7df806c347da652a.jpg
+0,2020-04-12 22:21:36.027,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/Screenshot_2020-04-10-21-16-53-86_84d3000e3f4017145260f7618db1d683.jpg
+0,2020-04-12 22:21:36.031,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/Screenshot_2020-04-10-21-17-44-51_8b7aa5be40a89c6a7df806c347da652a.jpg
+0,2020-04-12 22:21:36.033,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/Screenshot_2020-04-10-22-00-07-48_40deb401b9ffe8e1df2f1cc5ba480b12.jpg
+0,2020-04-12 22:21:36.036,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/Screenshot_2020-04-10-22-01-43-70_40deb401b9ffe8e1df2f1cc5ba480b12.jpg
+0,2020-04-12 22:21:36.039,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/Screenshot_2020-04-10-22-05-33-19.jpg
+0,2020-04-12 22:21:36.039,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/Screenshot_2020-04-10-22-09-27-60.jpg
+0,2020-04-12 22:21:36.040,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/Screenshot_2020-04-10-22-17-45-11.jpg
+0,2020-04-12 22:21:36.045,RecycleInsert,RecycleBin,/storage/emulated/0/DCIM/Screenshots/Screenshot_2020-04-11-02-45-03-37.jpg
+0,2020-04-12 22:21:36.379,UserAssert,syncDataFullEnd,"imageCount: 60, videoCount: 7, cloudCount: 804, recycleCount: 68, checkPermissionOk: true"
+1,2020-04-12 22:21:38.679,ClearThumb,clearIvalidThumb,"delete: 0, all: 374"
+0,2020-04-12 22:21:56.175,UserAssert,syncDataFullStart,"imageCount: 47, videoCount: 6, cloudCount: 804, recycleCount: 82, checkPermissionOk: true"
+0,2020-04-12 22:21:56.215,RecycleInsert,RecycleBin,/storage/emulated/0/tencent/MicroMsg/WeiXin/wx_camera_1578312032001.mp4
+0,2020-04-12 22:21:56.216,RecycleInsert,RecycleBin,/storage/emulated/0/tencent/MicroMsg/WeiXin/wx_camera_1585715846150.jpg
+0,2020-04-12 22:21:56.216,RecycleInsert,RecycleBin,/storage/emulated/0/tencent/MicroMsg/WeiXin/wx_camera_1585743348175.jpg
+0,2020-04-12 22:21:56.216,RecycleInsert,RecycleBin,/storage/emulated/0/tencent/MicroMsg/WeiXin/wx_camera_1585793292223.jpg
+0,2020-04-12 22:21:56.217,RecycleInsert,RecycleBin,/storage/emulated/0/tencent/MicroMsg/WeiXin/wx_camera_1585822933064.jpg
+0,2020-04-12 22:21:56.217,RecycleInsert,RecycleBin,/storage/emulated/0/tencent/MicroMsg/WeiXin/wx_camera_1586070769181.jpg
+0,2020-04-12 22:21:56.217,RecycleInsert,RecycleBin,/storage/emulated/0/tencent/MicroMsg/WeiXin/wx_camera_1586156094341.jpg
+0,2020-04-12 22:21:56.218,RecycleInsert,RecycleBin,/storage/emulated/0/tencent/MicroMsg/WeiXin/wx_camera_1586243255431.jpg
+0,2020-04-12 22:21:56.218,RecycleInsert,RecycleBin,/storage/emulated/0/tencent/MicroMsg/WeiXin/wx_camera_1586247470082.jpg
+0,2020-04-12 22:21:56.218,RecycleInsert,RecycleBin,/storage/emulated/0/tencent/MicroMsg/WeiXin/wx_camera_1586259964987.jpg
+0,2020-04-12 22:21:56.219,RecycleInsert,RecycleBin,/storage/emulated/0/tencent/MicroMsg/WeiXin/wx_camera_1586315388869.jpg
+0,2020-04-12 22:21:56.219,RecycleInsert,RecycleBin,/storage/emulated/0/tencent/MicroMsg/WeiXin/wx_camera_1586315538926.jpg
+0,2020-04-12 22:21:56.220,RecycleInsert,RecycleBin,/storage/emulated/0/tencent/MicroMsg/WeiXin/wx_camera_1586346722862.jpg
+0,2020-04-12 22:21:56.220,RecycleInsert,RecycleBin,/storage/emulated/0/tencent/MicroMsg/WeiXin/wx_camera_1586599132343.jpg
+0,2020-04-12 22:21:56.389,UserAssert,syncDataFullEnd,"imageCount: 47, videoCount: 6, cloudCount: 804, recycleCount: 82, checkPermissionOk: true"
+1,2020-04-12 22:21:58.216,ClearThumb,clearIvalidThumb,"delete: 0, all: 374"
+0,2020-04-12 22:22:20.100,UserAssert,syncDataFullStart,"imageCount: 47, videoCount: 6, cloudCount: 804, recycleCount: 82, checkPermissionOk: true"
+0,2020-04-12 22:22:20.194,UserAssert,syncDataFullEnd,"imageCount: 47, videoCount: 6, cloudCount: 804, recycleCount: 82, checkPermissionOk: true"
+0,2020-04-12 22:22:31.089,UserAssert,syncDataFullStart,"imageCount: 47, videoCount: 6, cloudCount: 804, recycleCount: 82, checkPermissionOk: true"
+0,2020-04-12 22:22:31.141,UserAssert,syncDataFullEnd,"imageCount: 47, videoCount: 6, cloudCount: 804, recycleCount: 82, checkPermissionOk: true"
+0,2020-04-12 22:22:48.987,UserAssert,syncDataFullStart,"imageCount: 47, videoCount: 6, cloudCount: 804, recycleCount: 82, checkPermissionOk: true"
+0,2020-04-12 22:22:49.044,UserAssert,syncDataFullEnd,"imageCount: 47, videoCount: 6, cloudCount: 804, recycleCount: 82, checkPermissionOk: true"
+0,2020-04-12 22:28:18.042,UserAssert,syncDataFullStart,"imageCount: 47, videoCount: 6, cloudCount: 804, recycleCount: 82, checkPermissionOk: true"
+0,2020-04-12 22:28:18.217,UserAssert,syncDataFullEnd,"imageCount: 47, videoCount: 6, cloudCount: 804, recycleCount: 82, checkPermissionOk: true"
+0,2020-04-12 22:28:19.068,UserAssert,syncDataFullStart,"imageCount: 47, videoCount: 6, cloudCount: 804, recycleCount: 82, checkPermissionOk: true"
+0,2020-04-12 22:28:19.153,UserAssert,syncDataFullEnd,"imageCount: 47, videoCount: 6, cloudCount: 804, recycleCount: 82, checkPermissionOk: true"
+0,2020-04-12 22:28:19.591,UserAssert,onCreateAgent,"imageCount: 47, videoCount: 6, cloudCount: 804, recycleCount: 82, checkPermissionOk: true"
+0,2020-04-12 22:28:20.447,UserAssert,syncDataFullStart,"imageCount: 47, videoCount: 6, cloudCount: 804, recycleCount: 82, checkPermissionOk: true"
+0,2020-04-12 22:28:20.518,UserAssert,syncDataFullEnd,"imageCount: 47, videoCount: 6, cloudCount: 804, recycleCount: 82, checkPermissionOk: true"
+0,2020-04-12 22:28:33.396,UserAssert,syncDataFullStart,"imageCount: 47, videoCount: 7, cloudCount: 804, recycleCount: 81, checkPermissionOk: true"
+0,2020-04-12 22:28:33.581,UserAssert,syncDataFullEnd,"imageCount: 47, videoCount: 7, cloudCount: 804, recycleCount: 81, checkPermissionOk: true"
+1,2020-04-12 22:28:35.168,ClearThumb,clearIvalidThumb,"delete: 0, all: 374"
+0,2020-04-12 22:28:47.318,UserAssert,syncDataFullStart,"imageCount: 47, videoCount: 7, cloudCount: 804, recycleCount: 81, checkPermissionOk: true"
+0,2020-04-12 22:28:47.372,UserAssert,syncDataFullEnd,"imageCount: 47, videoCount: 7, cloudCount: 804, recycleCount: 81, checkPermissionOk: true"

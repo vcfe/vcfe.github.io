@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gcp on vcfe`s Blog</title>
+    <link>https://vcfe.xyz/tags/gcp/</link>
+    <description>Recent content in gcp on vcfe`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 12 Apr 2020 14:39:52 +0000</lastBuildDate>
+    
+	<atom:link href="https://vcfe.xyz/tags/gcp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gcp实现root密码ssh连接</title>
+      <link>https://vcfe.xyz/2020/gcp/</link>
+      <pubDate>Sun, 12 Apr 2020 14:39:52 +0000</pubDate>
+      
+      <guid>https://vcfe.xyz/2020/gcp/</guid>
+      <description>GCP 就是谷歌的一个云服务。 进入VM实例列表通过“SSH”点击“在浏览器窗口打开”进入VPS服务器（下图） 切换到管理员用户 sudo -i 编辑sshd_co</description>
+    </item>
+    
+  </channel>
+</rss>
