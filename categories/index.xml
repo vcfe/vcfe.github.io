@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on vcfe`s Blog</title>
+    <link>https://vcfe.xyz/categories/</link>
+    <description>Recent content in Categories on vcfe`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 12 Apr 2020 23:00:02 +0000</lastBuildDate>
+    
+	<atom:link href="https://vcfe.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>linux</title>
+      <link>https://vcfe.xyz/categories/linux/</link>
+      <pubDate>Sun, 12 Apr 2020 23:00:02 +0000</pubDate>
+      
+      <guid>https://vcfe.xyz/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>学习</title>
+      <link>https://vcfe.xyz/categories/%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Wed, 08 Apr 2020 14:03:47 +0000</pubDate>
+      
+      <guid>https://vcfe.xyz/categories/%E5%AD%A6%E4%B9%A0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>玩机</title>
+      <link>https://vcfe.xyz/categories/%E7%8E%A9%E6%9C%BA/</link>
+      <pubDate>Wed, 08 Apr 2020 14:03:47 +0000</pubDate>
+      
+      <guid>https://vcfe.xyz/categories/%E7%8E%A9%E6%9C%BA/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>syntax</title>
+      <link>https://vcfe.xyz/categories/syntax/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vcfe.xyz/categories/syntax/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>themes</title>
+      <link>https://vcfe.xyz/categories/themes/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vcfe.xyz/categories/themes/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
