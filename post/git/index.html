@@ -54,7 +54,7 @@
     "datePublished": "2020-04-12 23:00:02 \x2b0000 UTC",
     "dateModified" : "2020-04-12 23:00:02 \x2b0000 UTC",
     "url" : "https:\/\/vcfe.xyz\/post\/git\/",
-    "wordCount" : "646",
+    "wordCount" : "748",
     "keywords" : [ "git", "vcfe`s Blog"]
 }
 </script>
@@ -162,7 +162,7 @@
                         
                         
                 </span>
-                <span class="post-word-count">646 words</span>
+                <span class="post-word-count">748 words</span>
         </div>
     </header>
 
@@ -240,9 +240,20 @@ git push &ndash;set-upstream origin master</p>
 <p>把 [remote “origin”] 那一行删掉就好了。<br>
 提交上传<br>
 <code>git push -u origin master</code></p>
-<p>git每次提交代码的时候都需要输入账号密码，实在是太麻烦了，下面说下解决的办法：
+<h2 id="git-config---global-credentialhelper-store">git每次提交代码的时候都需要输入账号密码，实在是太麻烦了，下面说下解决的办法：
 执行：<br>
-<code>git config --global credential.helper store</code></p>
+<code>git config --global credential.helper store</code></h2>
+<p>我的操作，不是新建的远程仓库需要拉取</p>
+<p><code>git init</code><br>
+初始化</p>
+<p><code>git remote add origin git@ssh地址</code><br>
+关联远程仓库</p>
+<p><code>git pull origin master</code><br>
+拉取远程仓库代码</p>
+<p><code>git push -u origin master</code><br>
+这一步啥意思我也不知道，不做的话会报错</p>
+<p>以后正常提交就行了
+<code>git add -A ;git commit -am 'First Commit' ; git push​</code></p>
 
     </div>
 

@@ -62,16 +62,6 @@
     </url>
   
     <url>
-      <loc>https://vcfe.xyz/</loc>
-      
-      <lastmod>2020-04-12T23:00:02+00:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
       <loc>https://vcfe.xyz/tags/gcp/</loc>
       
       <lastmod>2020-04-12T14:39:52+00:00</lastmod>
@@ -85,6 +75,26 @@
       <loc>https://vcfe.xyz/post/gcp/</loc>
       
       <lastmod>2020-04-12T14:39:52+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://vcfe.xyz/about/</loc>
+      
+      <lastmod>2020-04-10T18:56:38+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://vcfe.xyz/</loc>
+      
+      <lastmod>2020-04-10T18:56:38+00:00</lastmod>
       
       
       
@@ -142,6 +152,16 @@
     </url>
   
     <url>
+      <loc>https://vcfe.xyz/yl/</loc>
+      
+      <lastmod>2020-04-06T15:37:06+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
       <loc>https://vcfe.xyz/tags/github/</loc>
       
       <lastmod>2020-04-06T08:54:17+00:00</lastmod>
@@ -175,166 +195,6 @@
       <loc>https://vcfe.xyz/post/termux/</loc>
       
       <lastmod>2020-04-03T06:54:17+00:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://vcfe.xyz/tags/css/</loc>
-      
-      <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://vcfe.xyz/tags/html/</loc>
-      
-      <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://vcfe.xyz/tags/markdown/</loc>
-      
-      <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://vcfe.xyz/post/markdown-syntax/</loc>
-      
-      <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://vcfe.xyz/categories/syntax/</loc>
-      
-      <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://vcfe.xyz/tags/themes/</loc>
-      
-      <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://vcfe.xyz/categories/themes/</loc>
-      
-      <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://vcfe.xyz/tags/privacy/</loc>
-      
-      <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://vcfe.xyz/post/rich-content/</loc>
-      
-      <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://vcfe.xyz/tags/shortcodes/</loc>
-      
-      <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://vcfe.xyz/post/placeholder-text/</loc>
-      
-      <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://vcfe.xyz/tags/text/</loc>
-      
-      <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://vcfe.xyz/post/math-typesetting/</loc>
-      
-      <lastmod>2019-03-08T00:00:00+00:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://vcfe.xyz/tags/emoji/</loc>
-      
-      <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://vcfe.xyz/post/emoji-support/</loc>
-      
-      <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://vcfe.xyz/post/about/</loc>
-      
-      <lastmod>2019-02-28T00:00:00+00:00</lastmod>
       
       
       
