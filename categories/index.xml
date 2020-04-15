@@ -38,5 +38,26 @@
       <description></description>
     </item>
     
+<<<<<<< HEAD
+=======
+    <item>
+      <title>syntax</title>
+      <link>https://vcfe.xyz/categories/syntax/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vcfe.xyz/categories/syntax/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>themes</title>
+      <link>https://vcfe.xyz/categories/themes/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vcfe.xyz/categories/themes/</guid>
+      <description></description>
+    </item>
+    
+>>>>>>> d84e42d5984fab0cc3a4022e473de1c0eb69dd3a
   </channel>
 </rss>

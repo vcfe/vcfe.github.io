@@ -5,7 +5,11 @@
     <description>Recent content in vcfe`s Blog on vcfe`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
+<<<<<<< HEAD
     <lastBuildDate>Fri, 10 Apr 2020 18:56:38 +0000</lastBuildDate>
+=======
+    <lastBuildDate>Sun, 12 Apr 2020 23:00:02 +0000</lastBuildDate>
+>>>>>>> d84e42d5984fab0cc3a4022e473de1c0eb69dd3a
     <atom:link href="https://vcfe.xyz/" rel="self" type="application/rss+xml" />
     
     <item>
@@ -17,6 +21,7 @@
       <description></description>
     </item>
     
+<<<<<<< HEAD
     <item>
       <title>About</title>
       <link>https://vcfe.xyz/about/</link>
@@ -53,5 +58,7 @@
 </description>
     </item>
     
+=======
+>>>>>>> d84e42d5984fab0cc3a4022e473de1c0eb69dd3a
   </channel>
 </rss>

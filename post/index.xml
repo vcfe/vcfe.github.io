@@ -56,5 +56,64 @@
       <description>自用配置 均来源于网络收集 基本配置 按照惯例先更新系统pkg upgrade 首先就是先配置键盘 mkdir $HOME/.termux echo &amp;#34;extra-keys = [[&amp;#39;ESC&amp;#39;,&amp;#39;/&amp;#39;,&amp;#39;-&amp;#39;,&amp;#39;HOME&amp;#39;,&amp;#39;UP&amp;#39;,&amp;#39;END&amp;#39;,&amp;#39;PGUP&amp;#39;],[&amp;#39;TAB&amp;#39;,&amp;#39;CTRL&amp;#39;,&amp;#39;ALT&amp;#39;,&amp;#39;LEFT&amp;#39;,&amp;#39;DOWN&amp;#39;,&amp;#39;RIGHT&amp;#39;,&amp;#39;PGDN&amp;#39;]]&amp;#34; &amp;gt;&amp;gt; $HOME/.termux/termux.properties 安装基本工具 pkg install vim curl wget git unzip unrar 外置存储 pkg install termux-tools termux-setup-storage 关联</description>
     </item>
     
+<<<<<<< HEAD
+=======
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>https://vcfe.xyz/post/markdown-syntax/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vcfe.xyz/post/markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rich Content</title>
+      <link>https://vcfe.xyz/post/rich-content/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vcfe.xyz/post/rich-content/</guid>
+      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Placeholder Text</title>
+      <link>https://vcfe.xyz/post/placeholder-text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vcfe.xyz/post/placeholder-text/</guid>
+      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de
+pectora summo.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Math Typesetting</title>
+      <link>https://vcfe.xyz/post/math-typesetting/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vcfe.xyz/post/math-typesetting/</guid>
+      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Emoji Support</title>
+      <link>https://vcfe.xyz/post/emoji-support/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vcfe.xyz/post/emoji-support/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://vcfe.xyz/post/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vcfe.xyz/post/about/</guid>
+      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Hugo makes use of a variety of open source projects including: :bowtie: 😄 :simple_smile: 😆 😊 😃 ☺ 😏 😍 😘 😚 😳 😌 😆 😄 😉 😜 😝 😀 😗 😙 😛 😴 😟 😦 😧 😮 😬 😕 😯 😑 😒 😅 😓 😥 😩 😔 😞 😖 😨 😰 😣 😢 😭 😂 😲 😱 :neckbeard: 😫 😠 😡</description>
+    </item>
+    
+>>>>>>> d84e42d5984fab0cc3a4022e473de1c0eb69dd3a
   </channel>
 </rss>
