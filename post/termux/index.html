@@ -9,11 +9,7 @@
     <meta name="description" content="vcfe 的个人博客">
     
     
-<<<<<<< HEAD
     
-=======
-    <link rel="prev" href="https://vcfe.xyz/post/markdown-syntax/" />
->>>>>>> d84e42d5984fab0cc3a4022e473de1c0eb69dd3a
     <link rel="next" href="https://vcfe.xyz/post/hugo/" />
     <link rel="canonical" href="https://vcfe.xyz/post/termux/" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -58,7 +54,7 @@
     "datePublished": "2020-04-03 06:54:17 \x2b0000 UTC",
     "dateModified" : "2020-04-03 06:54:17 \x2b0000 UTC",
     "url" : "https:\/\/vcfe.xyz\/post\/termux\/",
-    "wordCount" : "1116",
+    "wordCount" : "1201",
     "keywords" : [ "termux", "vcfe`s Blog"]
 }
 </script>
@@ -166,7 +162,7 @@
                         
                         
                 </span>
-                <span class="post-word-count">1116 words</span>
+                <span class="post-word-count">1201 words</span>
         </div>
     </header>
 
@@ -270,7 +266,21 @@ alias命令用来设置指令的别名。我们可以使用该命令可以将一
 </ul>
 <p>alias命令的作用只局限于该次登入的操作。若要每次登入都能够使用这些命令别名，<del>则可将相应的alias命令存放到bash的初始化文件/etc/bashrc中。</del>(linux)<br>
 Termux中可以编辑<code>.zshrc</code>文件,添加alias命令</p>
-<p>语法
+<ul>
+<li>背景<br>
+终端复制的时候背景重叠看不见复制的内容<br>
+<img src="https://gitee.com/vcfe/jpg/raw/master/95e72898c16e6ce521524e1ca7fcb63d.jpg" alt="原背景"><br>
+解决:<br>
+修改colors.properties文件<br>
+找不到？搜一下不就行了</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">find /data/data/com.termux/files -name colors.properties
+</code></pre></div><p><img src="https://gitee.com/vcfe/jpg/raw/master/1739a9a57d3da3c1ecee56e7a49c8880.jpg" alt="colors.properties文件"><br>
+<strong>效果:</strong><br>
+<img src="https://gitee.com/vcfe/jpg/raw/master/172baf96494a38b156618bc6c9394e10.jpg" alt="效果"><br>
+也可以使用命令直接修改</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sed -e <span style="color:#e6db74">&#39;/^background/c background=#282c33&#39;</span> -e <span style="color:#e6db74">&#39;/^foreground/c foreground=#abb2bf&#39;</span> -e <span style="color:#e6db74">&#39;/^cursor/c cursor=#fafafa&#39;</span> /data/data/com.termux/files/home/termux-ohmyzsh/.termux/colors.properties
+</code></pre></div><p>语法
 alias(选项)(参数)
 选项
 -p：打印已经设置的命令别名。
@@ -289,8 +299,7 @@ alias 的基本使用方法为：</p>
 之后</li>
 </ul>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sh -c <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span> https://gitee.com/vcfe/termuxBackup/raw/master/ini.sh<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
-</code></pre></div><!-- raw HTML omitted -->
-
+</code></pre></div>
     </div>
 
     <div class="post-copyright">
@@ -328,11 +337,6 @@ alias 的基本使用方法为：</p>
     </div>
 
     <div class="post-nav">
-<<<<<<< HEAD
-=======
-        
-        <a href="https://vcfe.xyz/post/markdown-syntax/" class="prev" rel="prev" title="Markdown Syntax Guide"><i class="iconfont icon-left"></i>&nbsp;Markdown Syntax Guide</a>
->>>>>>> d84e42d5984fab0cc3a4022e473de1c0eb69dd3a
          
         
         <a href="https://vcfe.xyz/post/hugo/" class="next" rel="next" title="无root手机利用hugo&#43;github搭建静态博客">无root手机利用hugo&#43;github搭建静态博客&nbsp;<i class="iconfont icon-right"></i></a>

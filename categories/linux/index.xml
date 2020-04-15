@@ -6,10 +6,19 @@
     <description>Recent content in linux on vcfe`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 12 Apr 2020 23:00:02 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2020 15:03:58 +0000</lastBuildDate>
     
 	<atom:link href="https://vcfe.xyz/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>sed命令</title>
+      <link>https://vcfe.xyz/post/sed/</link>
+      <pubDate>Wed, 15 Apr 2020 15:03:58 +0000</pubDate>
+      
+      <guid>https://vcfe.xyz/post/sed/</guid>
+      <description>一、概述 sed（Stream Editor）是一种流编辑器，它是文本处理中非常有用的工具，能够完美的配合正则表达式使用，功能不同凡响。从名字上</description>
+    </item>
     
     <item>
       <title>Git的基本命令</title>
