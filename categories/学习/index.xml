@@ -30,12 +30,12 @@
     </item>
     
     <item>
-      <title>Termux终端配置,4.8更新一键脚本</title>
+      <title>Termux终端配置,4.17更新一键脚本</title>
       <link>https://vcfe.xyz/post/termux/</link>
       <pubDate>Fri, 03 Apr 2020 06:54:17 +0000</pubDate>
       
       <guid>https://vcfe.xyz/post/termux/</guid>
-      <description>自用配置 均来源于网络收集 f-droid版本下载地址 基本配置 按照惯例先更新系统pkg upgrade 首先就是先配置键盘 mkdir $HOME/.termux echo &amp;#34;extra-keys = [[&amp;#39;ESC&amp;#39;,&amp;#39;/&amp;#39;,&amp;#39;-&amp;#39;,&amp;#39;HOME&amp;#39;,&amp;#39;UP&amp;#39;,&amp;#39;END&amp;#39;,&amp;#39;PGUP&amp;#39;],[&amp;#39;TAB&amp;#39;,&amp;#39;CTRL&amp;#39;,&amp;#39;ALT&amp;#39;,&amp;#39;LEFT&amp;#39;,&amp;#39;DOWN&amp;#39;,&amp;#39;RIGHT&amp;#39;,&amp;#39;PGDN&amp;#39;]]&amp;#34; &amp;gt;&amp;gt; $HOME/.termux/termux.properties 安装基本工具 pkg install vim curl wget</description>
+      <description>自用配置 均来源于网络收集 f-droid版本下载地址 4.17更新脚本，提供按需选择安装 基本配置 按照惯例先更新系统pkg upgrade 首先就是先配置键盘 mkdir $HOME/.termux</description>
     </item>
     
   </channel>

@@ -20,5 +20,14 @@
       <description>一、概述 sed（Stream Editor）是一种流编辑器，它是文本处理中非常有用的工具，能够完美的配合正则表达式使用，功能不同凡响。从名字上</description>
     </item>
     
+    <item>
+      <title>Gcp实现root密码ssh连接</title>
+      <link>https://vcfe.xyz/post/gcp/</link>
+      <pubDate>Sun, 12 Apr 2020 14:39:52 +0000</pubDate>
+      
+      <guid>https://vcfe.xyz/post/gcp/</guid>
+      <description>GCP 就是谷歌的一个云服务。 进入VM实例列表通过“SSH”点击“在浏览器窗口打开”进入VPS服务器（下图） 切换到管理员用户 sudo -i 编辑sshd_co</description>
+    </item>
+    
   </channel>
 </rss>
