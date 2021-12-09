@@ -1,9 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>我的全新 Hugo 网站</title>
+        <title>和光同尘</title>
         <link>http://example.org/</link>
-        <description>我的全新 Hugo 网站</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language>
+        <description>和光同尘</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>vcfe@qq.com (vcfe)</managingEditor>
+            <webMaster>vcfe@qq.com (vcfe)</webMaster>
             <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>Hello World</title>
