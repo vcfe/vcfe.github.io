@@ -4,17 +4,13 @@
         <link>http://example.org/posts/</link>
         <description>所有文章 | 和光同尘</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>vcfe@qq.com (vcfe)</managingEditor>
-            <webMaster>vcfe@qq.com (vcfe)</webMaster><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>Hello World</title>
-    <link>http://example.org/posts/hello-world/</link>
-    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+            <webMaster>vcfe@qq.com (vcfe)</webMaster><lastBuildDate>Thu, 09 Dec 2021 16:57:24 &#43;0000</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>主题文档 - 基本概念</title>
+    <link>http://example.org/posts/%E4%B8%BB%E9%A2%98%E6%96%87%E6%A1%A3-%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/</link>
+    <pubDate>Thu, 09 Dec 2021 16:57:24 &#43;0000</pubDate>
     <author>作者</author>
-    <guid>http://example.org/posts/hello-world/</guid>
-    <description><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick Start Create a new post $ hexo new &#34;My New Post&#34; More info: Writing
-Run server $ hexo server More info: Server
-Generate static files $ hexo generate More info: Generating
-Deploy to remote sites $ hexo deploy More info: Deployment]]></description>
+    <guid>http://example.org/posts/%E4%B8%BB%E9%A2%98%E6%96%87%E6%A1%A3-%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/</guid>
+    <description><![CDATA[<p>探索 Hugo - <strong>LoveIt</strong> 主题的全部内容和背后的核心概念.</p>]]></description>
 </item><item>
     <title>md语法</title>
     <link>http://example.org/posts/markdown%E8%AF%AD%E6%B3%95/</link>
