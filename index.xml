@@ -14,6 +14,13 @@
     <guid>http://example.org/posts/%E4%B8%BB%E9%A2%98%E6%96%87%E6%A1%A3-%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/</guid>
     <description><![CDATA[<p>探索 Hugo - <strong>LoveIt</strong> 主题的全部内容和背后的核心概念.</p>]]></description>
 </item><item>
+    <title>Content Placeholder</title>
+    <link>http://example.org/posts/123/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/posts/123/</guid>
+    <description><![CDATA[test 测试]]></description>
+</item><item>
     <title>md语法</title>
     <link>http://example.org/posts/markdown%E8%AF%AD%E6%B3%95/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
