@@ -10,8 +10,7 @@
     <pubDate>Fri, 10 Dec 2021 22:20:48 &#43;0000</pubDate>
     <author>作者</author>
     <guid>http://example.org/posts/%E4%B8%BB%E9%A2%98%E6%96%87%E6%A1%A3-%E5%86%85%E5%AE%B9/</guid>
-    <description><![CDATA[<h1 id="主题文档---内容">主题文档 - 内容</h1>
-<p>了解如何在 <strong>LoveIt</strong> 主题中快速, 直观地创建和组织内容.</p>]]></description>
+    <description><![CDATA[<p>了解如何在 <strong>LoveIt</strong> 主题中快速, 直观地创建和组织内容.</p>]]></description>
 </item><item>
     <title>主题文档 - 基本概念</title>
     <link>http://example.org/posts/%E4%B8%BB%E9%A2%98%E6%96%87%E6%A1%A3-%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/</link>
@@ -26,5 +25,12 @@
     <author>作者</author>
     <guid>http://example.org/posts/markdown%E8%AF%AD%E6%B3%95/</guid>
     <description><![CDATA[一级标题1 二级标题 三级标题 四级标题 五级标题 六级标题 一级引用 二级引用 三级引用 一级列表 二级列表 三级列表 有序列表 有序子列表 有序子列表 有序列表 无序子]]></description>
+</item><item>
+    <title>心路历程</title>
+    <link>http://example.org/posts/xl/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/posts/xl/</guid>
+    <description><![CDATA[记录当下内心最真实的想法 2021年12月11日 摘要 总是自卑又偶尔傲慢，总觉得自己与世界格格不入，觉得自己是对的但是周围的人又和自己不一样，分]]></description>
 </item></channel>
 </rss>
