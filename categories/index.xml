@@ -4,12 +4,12 @@
         <link>http://example.org/categories/</link>
         <description>Categories - 分类 - 和光同尘</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>vcfe@qq.com (vcfe)</managingEditor>
-            <webMaster>vcfe@qq.com (vcfe)</webMaster><lastBuildDate>Thu, 09 Dec 2021 16:57:24 &#43;0000</lastBuildDate><atom:link href="http://example.org/categories/" rel="self" type="application/rss+xml" /><item>
-    <title>玩机折腾</title>
-    <link>http://example.org/categories/%E7%8E%A9%E6%9C%BA%E6%8A%98%E8%85%BE/</link>
-    <pubDate>Thu, 09 Dec 2021 16:57:24 &#43;0000</pubDate>
+            <webMaster>vcfe@qq.com (vcfe)</webMaster><lastBuildDate>Fri, 10 Dec 2021 22:20:48 &#43;0000</lastBuildDate><atom:link href="http://example.org/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>学习文档</title>
+    <link>http://example.org/categories/%E5%AD%A6%E4%B9%A0%E6%96%87%E6%A1%A3/</link>
+    <pubDate>Fri, 10 Dec 2021 22:20:48 &#43;0000</pubDate>
     <author>作者</author>
-    <guid>http://example.org/categories/%E7%8E%A9%E6%9C%BA%E6%8A%98%E8%85%BE/</guid>
+    <guid>http://example.org/categories/%E5%AD%A6%E4%B9%A0%E6%96%87%E6%A1%A3/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>
