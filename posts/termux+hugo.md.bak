@@ -67,4 +67,41 @@ cd ~/blog && hugo
 cd ~/blog/public
 git add -A ;git commit -am 'First Commit' ; git push​
 ```
-## 配置algolia搜索
+## 4 配置algolia搜索
+### 安装 atomic-algolia 包
+```shell
+npm init  // 不懂的就回车好了
+npm install atomic-algolia --save
+```
+修改目录下的 package.json 文件，在 scripts 下添加 "algolia": "atomic-algolia"
+```txt
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "algolia": "atomic-algolia"
+},
+```
+注意 "test" 那一行末尾有个英文逗号，不要漏了。
+
+根目录下新建 .env 文件，内容如下：
+```.env
+ALGOLIA_APP_ID=你的Application ID
+ALGOLIA_INDEX_NAME=你的索引名字
+ALGOLIA_INDEX_FILE=public/algolia.json
+ALGOLIA_ADMIN_KEY=你的Admin API Key
+```
+注意替换你自己Algolia索引的信息。
+另外特别注意 ALGOLIA_ADMIN_KEY 可以用来管理你的索引，所以尽量不要提交到公共仓库。
+一般的做法是在你的自动化部署工具中设置环境变量，比如说本站就是在 Travis CI 中设置环境变量。
+
+上传索引的命令
+你可以本地执行 `npm run algolia` 查看运行效果：
+
+可以看到我们成功添加了记录。
+后续就是把下面的命令加到你的部署脚本即可：
+```shell
+npm install
+npm run algolia
+``` 
+// 在hugo命令后面执行</br>
+至此，如果你运行 npm run algolia 没有报错的话，就可以继续下一步了。
+同样的，如果有问题欢迎在下面留言。
