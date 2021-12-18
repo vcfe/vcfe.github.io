@@ -4,7 +4,7 @@ date: 2021-12-0916:57:24
 toc:
   enable: true
   auto: true
-  hiddenFromHomePage: true
+hiddenFromHomePage: true
 
 hiddenFromSearch: true
 ---
