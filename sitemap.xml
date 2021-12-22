@@ -2,18 +2,20 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://example.org/posts/test/</loc><lastmod>2021-12-19T23:11:53&#43;00:00</lastmod></url><url>
-            <loc>http://example.org/posts/</loc><lastmod>2021-12-19T23:11:53&#43;00:00</lastmod></url><url>
-            <loc>http://example.org/</loc><lastmod>2021-12-19T23:11:53&#43;00:00</lastmod></url><url>
-            <loc>http://example.org/categories/</loc><lastmod>2021-12-12T07:32:54&#43;00:00</lastmod></url><url>
+            <loc>http://example.org/categories/</loc><lastmod>2021-12-22T20:29:14&#43;00:00</lastmod></url><url>
+            <loc>http://example.org/tags/debian/</loc><lastmod>2021-12-22T20:29:14&#43;00:00</lastmod></url><url>
+            <loc>http://example.org/tags/linux/</loc><lastmod>2021-12-22T20:29:14&#43;00:00</lastmod></url><url>
+            <loc>http://example.org/posts/</loc><lastmod>2021-12-22T20:29:14&#43;00:00</lastmod></url><url>
+            <loc>http://example.org/tags/</loc><lastmod>2021-12-22T20:29:14&#43;00:00</lastmod></url><url>
+            <loc>http://example.org/</loc><lastmod>2021-12-22T20:29:14&#43;00:00</lastmod></url><url>
+            <loc>http://example.org/categories/%E5%AD%A6%E4%B9%A0%E6%96%87%E6%A1%A3/</loc><lastmod>2021-12-22T20:29:14&#43;00:00</lastmod></url><url>
+            <loc>http://example.org/posts/debian9/</loc><lastmod>2021-12-22T20:29:14&#43;00:00</lastmod></url><url>
             <loc>http://example.org/tags/github/</loc><lastmod>2021-12-12T07:32:54&#43;00:00</lastmod></url><url>
             <loc>http://example.org/tags/hugo/</loc><lastmod>2021-12-12T07:32:54&#43;00:00</lastmod></url><url>
-            <loc>http://example.org/tags/</loc><lastmod>2021-12-12T07:32:54&#43;00:00</lastmod></url><url>
             <loc>http://example.org/tags/termux/</loc><lastmod>2021-12-12T07:32:54&#43;00:00</lastmod></url><url>
             <loc>http://example.org/posts/termux&#43;hugo/</loc><lastmod>2021-12-12T07:32:54&#43;00:00</lastmod></url><url>
             <loc>http://example.org/categories/%E5%AE%9E%E6%93%8D%E8%AE%B0%E5%BD%95/</loc><lastmod>2021-12-12T07:32:54&#43;00:00</lastmod></url><url>
             <loc>http://example.org/posts/zhutiwendang2/</loc><lastmod>2021-12-10T22:20:48&#43;00:00</lastmod></url><url>
-            <loc>http://example.org/categories/%E5%AD%A6%E4%B9%A0%E6%96%87%E6%A1%A3/</loc><lastmod>2021-12-10T22:20:48&#43;00:00</lastmod></url><url>
             <loc>http://example.org/posts/zhutiwendang1/</loc><lastmod>2021-12-09T16:57:24&#43;00:00</lastmod></url><url>
             <loc>http://example.org/autub/</loc><lastmod>2021-12-09T16:39:56&#43;00:00</lastmod></url><url>
             <loc>http://example.org/posts/markdown%E8%AF%AD%E6%B3%95/</loc></url><url>

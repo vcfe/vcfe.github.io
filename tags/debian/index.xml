@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>debian - 标签 - 和光同尘</title>
+        <link>http://example.org/tags/debian/</link>
+        <description>debian - 标签 - 和光同尘</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>vcfe@qq.com (vcfe)</managingEditor>
+            <webMaster>vcfe@qq.com (vcfe)</webMaster><lastBuildDate>Wed, 22 Dec 2021 20:29:14 &#43;0000</lastBuildDate><atom:link href="http://example.org/tags/debian/" rel="self" type="application/rss+xml" /><item>
+    <title>自用常用命令</title>
+    <link>http://example.org/posts/debian9/</link>
+    <pubDate>Wed, 22 Dec 2021 20:29:14 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/posts/debian9/</guid>
+    <description><![CDATA[重启minidlna service minidlna force-reload]]></description>
+</item></channel>
+</rss>
