@@ -1,0 +1,9 @@
+---
+title: "自用常用命令"
+date: 2021-12-22T20:29:14Z
+tags: [debian,linux]
+categories: [学习文档]
+---
+
+重启minidlna
+`service minidlna force-reload`
